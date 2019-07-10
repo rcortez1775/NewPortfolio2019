@@ -1,0 +1,20 @@
+.hero2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.hero2 h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    letter-spacing: 5px;
+}
+
+.hero2 h2 {
+    color: #666666;
+    font-size: 20px;
+}

@@ -5,16 +5,28 @@
     justify-content: center;
     align-items: center;
     font-family: 'Dosis', sans-serif;
-}
-
-.hero2 h1 {
-    font-size: 5em;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    letter-spacing: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .hero2 h2 {
     color: #666666;
+    font-size: 23px;
+    margin-top: -20px;
+}
+
+.aboutTitle {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.aboutBox {
+    width: 20em;
+}
+
+.aboutSpan {
     font-size: 20px;
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
 }

@@ -1,37 +1,21 @@
 .hero {
-    /* Sizing */
     width: 100vw;
     height: 100vh;
-    
-    /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* Text styles */
     text-align: center;
-    
-    /* Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1448697138198-9aa6d0d84bf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-    background-position: center center;
-    background-color: #464646;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-@media only screen and (max-width: 767px) {
-    .hero {  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1448697138198-9aa6d0d84bf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-    }
-  }
-
 .hero h1 {
-    /* Text styles */
     font-size: 5em;
     color: #fafafa;
-    /* Margins */
     margin-top: 0;
     margin-bottom: 0.1em;
     font-family: 'Dosis', sans-serif;

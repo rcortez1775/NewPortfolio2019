@@ -11,13 +11,15 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-size:100%;
+    width: 100%;
 }
 
 .hero h1 {
     font-size: 90px;
     color: #fafafa;
     margin-top: 0;
-    margin-bottom: 0.1em;
+    margin-bottom: 10px;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 5px;
 }

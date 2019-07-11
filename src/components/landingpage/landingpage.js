@@ -11,11 +11,11 @@ class LandingPage extends Component {
                     <div className="hero-inner">
                         <h1>Robert Cortez</h1>
                         <h2>Developer + Gamer + Dog Lover</h2>
-                        <div class="arrow">
+                        {/* <div class="arrow">
                             <span></span>
                             <span></span>
                             <span></span>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
                 <main>

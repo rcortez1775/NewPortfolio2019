@@ -1,32 +1,27 @@
-.hero2 {
+/* .hero2 {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
     font-family: 'Dosis', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-image: url(https://www.1zoom.me/big2/352/314068-Lastochka.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+} */
 
-.hero2 h2 {
+/* .hero2 h2 {
     color: #666666;
     font-size: 23px;
     margin-top: -20px;
-}
+} */
 
 .aboutTitle {
-    font-size: 4em;
+    font-size: 55px;
     margin-bottom: 0.5em;
+    color: rgb(229, 49, 0);
 }
 
-.aboutBox {
-    width: 20em;
-    margin-top: -10px;
+.aboutSubTitle {
+    color: #666666;
+    font-size: 23px;
+    margin-top: -25px;
 }
 
 .aboutSpan {
@@ -35,4 +30,44 @@
 
 .main {
     background-color: rgb(255, 255, 255);
+}
+
+.me {
+    width: 350px;
+    margin-left: -80px;
+    margin-top: -10px;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 7em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: 'Dosis', sans-serif;
+}
+
+.box2 {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1200px){
+    .box2{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .box2{
+        width: 80%;
+    }
 }

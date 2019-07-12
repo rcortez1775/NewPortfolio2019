@@ -7,7 +7,7 @@
 }
 
 .aboutSubTitle {
-    color: #666666;
+    color: #fafafa;
     font-size: 25px;
     margin-top: -25px;
     width: 90%;
@@ -15,7 +15,14 @@
 
 .aboutSpan {
     font-size: 20px;
+    color: #fafafa;
 }
+
+@media only screen and (max-device-width: 1366px) {
+    .container2 {
+      background-attachment: scroll;
+    }
+  }
 
 .main {
     background-color: #ffffff;
@@ -41,6 +48,12 @@
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../../images/bg2.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .box2 {
@@ -93,13 +106,13 @@ p {
 .moby {
     max-width: 100%;
     position: relative;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-top: 50px;
   }
   
   .myEdu {
     padding-top: 50px;
-    margin-left: 10%;
+    margin-left: 6%;
     writing-mode: vertical-rl;
     position: absolute;
     left: 0;

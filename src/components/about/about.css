@@ -68,6 +68,9 @@
     .aboutTitle{
         margin-top: 20px;
     }
+    span{
+        width: 75px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -81,15 +84,30 @@
     }
 }
 
-.myEdu {
-    width: 100%;
-    color: #e53100;
-    font-family: 'Dosis', sans-serif;
-    font-size: 25px;
-    margin-top: 5em;
+p {
+    width: 75%;
+    margin: auto;
+    position: relative;
 }
 
-.circuit {
-    width: 30%;
-}
+.moby {
+    max-width: 100%;
+    position: relative;
+    padding-left: 150px;
+    padding-top: 50px;
+  }
+  
+  .myEdu {
+    padding-top: 50px;
+    margin-left: 10%;
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1; 
+    color: #e53100;
+    font-family: 'Dosis', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+  }
 

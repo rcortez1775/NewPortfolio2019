@@ -1,27 +1,15 @@
-/* .hero2 {
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    font-family: 'Dosis', sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-} */
-
-/* .hero2 h2 {
-    color: #666666;
-    font-size: 23px;
-    margin-top: -20px;
-} */
-
 .aboutTitle {
     font-size: 55px;
     margin-bottom: 0.5em;
-    color: rgb(229, 49, 0);
+    color: #e53100;
+    font-weight: bold;
 }
 
 .aboutSubTitle {
     color: #666666;
-    font-size: 23px;
+    font-size: 25px;
     margin-top: -25px;
+    width: 90%;
 }
 
 .aboutSpan {
@@ -33,9 +21,11 @@
 }
 
 .me {
-    width: 350px;
-    margin-left: -80px;
-    margin-top: -10px;
+    width: 16em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 130px;  
 }
 
 .container2 {
@@ -47,9 +37,8 @@
     flex-flow: wrap;
     margin-top: 7em;
     margin-bottom: 5em;
-    margin-left: 1em;
-    margin-right: 1em;
     font-family: 'Dosis', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .box2 {
@@ -60,14 +49,24 @@
     box-sizing: border-box;
 }
 
+
+
 @media screen and (max-width:1200px){
     .box2{
         width: 40%;
+    }
+    .me{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media screen and (max-width: 600px){
     .box2{
         width: 80%;
+    }
+    .me{
+        margin-left: auto;
+        margin-right: auto;
     }
 }

@@ -42,16 +42,35 @@
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../../images/bg2.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(../../images/circuit.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+/* .container3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    font-family: 'Dosis', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url();
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
 @media only screen and (max-device-width: 1366px) {
     .container2 {
       background-attachment: scroll;
+      text-align: center;
     }
   }
 
@@ -108,6 +127,7 @@ p {
     position: relative;
     padding-left: 100px;
     padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   .myEdu {

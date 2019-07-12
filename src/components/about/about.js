@@ -24,7 +24,7 @@ class about extends Component {
                 <div>
                 <main className="main">
                     <div class="moby">
-                        <h2 className="myEdu">EDUCATION</h2>
+                        <h2 className="myEdu">&lt;EDUCATION&gt;</h2>
                         <p className="eduTitle">The Coding Bootcamp @ UC Irvine</p>
                         <p>drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off- then, I account it high time to get to sea as soon as I can.</p>
                         <p className="eduTitle">The Coding Bootcamp @ Sabio</p>

@@ -11,7 +11,7 @@ class about extends Component {
             <div>
                 <div className="container2">
                     <div className="box2">
-                        <h1 className="aboutTitle">About Me</h1>
+                        <h1 className="aboutTitle">&lt;About Me/&gt;</h1>
                         <h2 className="aboutSubTitle">I'm a Front-End developer based in Los Angeles, California</h2>
                         <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
                             I thrive on challenges to enhance my own creativity, critical thinking and understanding of development 
@@ -22,12 +22,14 @@ class about extends Component {
                         <img className="me" src={Me} alt="Me"/>
                     </div>
                 </div>
+                <div>
                 <main className="main">
                     <div>
                         <h3 className="myEdu">&emsp;&emsp;EDUCATION&emsp;&emsp;</h3>
                         <img className="circuit" src={Circuit} alt="Circuit"/>
                     </div>
                 </main>
+                </div>
             </div>
         )
     }

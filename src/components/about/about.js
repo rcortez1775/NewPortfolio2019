@@ -9,7 +9,7 @@ class about extends Component {
         return(
             <div>
                 <div className="container2">
-                    <div className="box2">
+                    <div className="box2 box2Intro">
                         <h1 className="aboutTitle">About Me</h1>
                         <h2 className="aboutSubTitle">I'm a Front-End developer based in Los Angeles, California</h2>
                         <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
@@ -22,7 +22,9 @@ class about extends Component {
                     </div>
                 </div>
                 <main className="main">
-            
+                    <div>
+                        <h3 className="myEdu">&emsp;&emsp;EDUCATION&emsp;&emsp;</h3>
+                    </div>
                 </main>
             </div>
         )

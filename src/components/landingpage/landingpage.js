@@ -19,7 +19,7 @@ class LandingPage extends Component {
                     </div>
                 </section>
                 <main>
-                    <div className="color">
+                    <div>
                         <h3 className="textSkills">&emsp;&emsp;SOME OF MY SKILLS&emsp;&emsp;</h3>
                     </div>
                     <div className="container">

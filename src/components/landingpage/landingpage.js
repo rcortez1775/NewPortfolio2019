@@ -9,7 +9,7 @@ class LandingPage extends Component {
             <div>
                 <section className="hero">
                     <div className="hero-inner">
-                        <h1>Robert Cortez</h1>
+                        <h1 className="name">Robert Cortez</h1>
                         <h2>Developer + Gamer + Dog Lover</h2>
                         <div class="arrow">
                             <span></span>
@@ -27,6 +27,8 @@ class LandingPage extends Component {
                             <div className="card">
                                 <span className="boxTitle">FOUNDATION</span>
                                 <br></br>
+                                <span className="boxList">ES6 JAVASCRIPT</span>
+                                <br></br>
                                 <span className="boxList">HTML(5)</span>
                                 <br></br>
                                 <span className="boxList">CSS(3)</span>
@@ -36,16 +38,9 @@ class LandingPage extends Component {
                         </div>
                         <div className="box">
                             <div className="card">
-                                <span className="boxTitle">LANGUAGES</span>
-                                <br></br>
-                                <span className="boxList">ES6 JAVASCRIPT</span>
-                            </div>
-                        </div>
-                        <div className="box">
-                            <div className="card">
                                 <span className="boxTitle">LIBRARIES</span>
                                 <br></br>
-                                <span className="boxList">REACT</span>
+                                <span className="boxList">REACT.JS</span>
                                 <br></br>
                                 <span className="boxList">jQUERY</span>
                                 <br></br>

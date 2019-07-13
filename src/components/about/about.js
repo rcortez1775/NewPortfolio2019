@@ -45,7 +45,7 @@ class about extends Component {
                         <h1 className="milTitle">Military Service</h1>
                         <h2 className="aboutSubTitle">United States Marine Corps</h2>
                         <span className="aboutSpan">
-                        In addition to maintaining log books, preparing reports and logging records, directives and correspondence for military aircraft and weaponry, I was trained in data processing military equipment. This allowed me to oversee and supervise maintenance administration functions, as well as set up, operate and maintain logistics hardware and systems.
+                            In addition to maintaining reports and correspondence for military aircraft and weaponry, training focused on data processing military equipment. This allowed ease when overseeing and supervising administration functions, as well as setting up, operating and maintaining logistics hardware and systems.
                         </span>
                     </div>
                 </div>

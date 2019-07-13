@@ -7,9 +7,9 @@
 }
 
 .aboutSubTitle {
-    color: #fafafa;
+    color: #666666;
     font-size: 25px;
-    margin-top: -25px;
+    margin-top: -30px;
     width: 90%;
 }
 
@@ -49,7 +49,7 @@
     background-attachment: fixed;
 }
 
-/* .container3 {
+.container3 {
     width: 100%;
     height: auto;
     display: flex;
@@ -57,21 +57,25 @@
     justify-content: space-around;
     flex-flow: wrap;
     margin-top: 2em;
-    margin-bottom: 5em;
+    /* margin-bottom: 5em; */
     font-family: 'Dosis', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url();
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../../images/dressblue.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-} */
+}
 
 @media only screen and (max-device-width: 1366px) {
     .container2 {
       background-attachment: scroll;
       text-align: center;
     }
+    .container3 {
+        background-attachment: scroll;
+        text-align: center;
+      }
   }
 
 .box2 {
@@ -101,6 +105,9 @@
     }
     span{
         width: 75px;
+    }
+    .milBox {
+        padding-top: -100px;
     }
 }
 
@@ -144,6 +151,7 @@ p {
     font-family: 'Dosis', sans-serif;
     font-size: 100px;
     font-weight: bold;
+    letter-spacing: 10px;
   }
 
   .eduTitle {
@@ -159,6 +167,22 @@ p {
       padding-bottom: -30px;
   }
 
+.milTitle {
+    font-size: 55px;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #e53100;
+}
+
 .description {
     margin-top: -45px;
+}
+
+.rifle {
+    width: 60%; 
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }

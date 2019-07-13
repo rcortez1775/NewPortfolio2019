@@ -116,7 +116,9 @@ h3:before {
     height: 300px;
     margin: 20px;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.1)), url(../../images/Up.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
 }
@@ -141,7 +143,7 @@ h3:before {
 }
 
 .boxList {
-    color: #666666;
+    color: #111111;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
 }

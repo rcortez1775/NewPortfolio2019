@@ -106,9 +106,6 @@
     span{
         width: 75px;
     }
-    .milBox {
-        padding-top: -100px;
-    }
 }
 
 @media screen and (max-width: 600px){
@@ -119,6 +116,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+    .rifleImage{
+        margin-bottom: -60px
     }
 }
 
@@ -139,8 +139,8 @@ p {
   }
   
   .myEdu {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-left: 6%;
     writing-mode: vertical-rl;
     position: absolute;
@@ -165,6 +165,7 @@ p {
       color: #666666;
       font-size: 19px;
       padding-bottom: -30px;
+      margin-top: -13px;
   }
 
 .milTitle {
@@ -175,7 +176,7 @@ p {
 }
 
 .description {
-    margin-top: -45px;
+    margin-top: -55px;
 }
 
 .rifle {

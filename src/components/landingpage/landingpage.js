@@ -25,7 +25,7 @@ class LandingPage extends Component {
                     <div className="container">
                         <div className="box">
                             <div className="card">
-                                <span className="boxTitle">THE BASICS</span>
+                                <span className="boxTitle">FOUNDATION</span>
                                 <br></br>
                                 <span className="boxList">HTML(5)</span>
                                 <br></br>

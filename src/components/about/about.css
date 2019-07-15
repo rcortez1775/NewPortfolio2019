@@ -1,21 +1,21 @@
 .aboutTitle {
     font-size: 55px;
     margin-bottom: 0.5em;
-    color: #e53100;
+    color: #111111;
     font-weight: bold;
     margin-top: 2.5em;
 }
 
 .aboutSubTitle {
     color: #111111;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: -10px;
     width: 90%;
     margin-bottom: -1px;
 }
 
 .aboutSpan {
-    font-size: 23px;
+    font-size: 20px;
     color: #111111;
 }
 
@@ -39,7 +39,7 @@
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #eeeeee
+    background-color: #f0f0f0;
 }
 
 .container3 {
@@ -53,7 +53,7 @@
     margin-bottom: -10em;
     font-family: 'Dosis', sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #eeeeee
+    background-color: #f0f0f0;
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -75,6 +75,15 @@
     box-sizing: border-box;
     margin-bottom: 5em;
     margin-top: 5em;
+}
+
+.boxAbout {
+    width: 30%;
+    margin-top: 3em;
+}
+
+.milBox {
+    width: 30%;
 }
 
 
@@ -160,7 +169,7 @@ p {
     font-size: 55px;
     margin-bottom: 0.5em;
     font-weight: bold;
-    color: #e53100;
+    color: #111111;
 }
 
 .description {
@@ -174,5 +183,4 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
 }

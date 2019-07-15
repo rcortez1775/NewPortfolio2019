@@ -11,7 +11,7 @@ class about extends Component {
             <div>
                 <div className="container2">
                     <div className="box2 boxAbout">
-                        <h1 className="aboutTitle">About Me</h1>
+                        <h1 className="aboutTitle">about me</h1>
                         <h2 className="aboutSubTitle">I'm a Front-End developer based in Los Angeles, California</h2>
                         <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
                             I thrive on challenges to enhance my own creativity, critical thinking and understanding of development 
@@ -42,7 +42,7 @@ class about extends Component {
                         <img className="rifle" src={Rifle} alt="Rifle"/>
                     </div>
                 <div className="box2 milBox">
-                        <h1 className="milTitle">Military Service</h1>
+                        <h1 className="milTitle">military service</h1>
                         <h2 className="aboutSubTitle">United States Marine Corps</h2>
                         <span className="aboutSpan">
                         My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operate and maintain logistics hardware and software.

@@ -1,0 +1,54 @@
+.projectContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 10em;
+}
+
+.box3 {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: left;   
+}
+
+@media screen and (max-width:1200px) {
+    .box3 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .box3 {
+        width: 90%;
+    }
+}
+
+.appTitle {
+    font-size: 55px;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    color: #111111;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    float: center;
+}
+
+.appDescription {
+    font-family: 'Dosis', sans-serif;
+    float: center;
+}
+
+.pup {
+    width:80%; 
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}

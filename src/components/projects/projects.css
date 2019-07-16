@@ -5,7 +5,9 @@
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
-    margin-top: 10em;
+    margin-top: 5em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #f7f7f7;
 }
 
 .projectContainer2 {
@@ -23,12 +25,18 @@
     height: auto;
     margin: 10px;
     box-sizing: border-box;
-    text-align: left;   
+    text-align: left;  
+    margin-bottom: 5em; 
+    margin-top: 5em;
 }
 
 @media screen and (max-width:1200px) {
     .box3 {
         width: 40%;
+        height: auto;
+    }
+    .keepPUPBox {
+        margin-top: -5px;
     }
 }
 
@@ -54,7 +62,7 @@
 }
 
 .pup {
-    width:80%; 
+    width:65%; 
     height:100%;
     margin-left: auto;
     margin-right: auto;
@@ -64,7 +72,7 @@
 }
 
 .codeCard {
-    width:80%; 
+    width:65%;
     height:100%;
     margin-left: auto;
     margin-right: auto;

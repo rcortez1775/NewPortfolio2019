@@ -11,7 +11,7 @@ class about extends Component {
             <div>
                 <div className="container2">
                     <div className="box2 boxAbout">
-                        <h1 className="aboutTitle">about me</h1>
+                        <h1 className="aboutTitle">About me</h1>
                         <h2 className="aboutSubTitle">I'm a Front-End developer based in Los Angeles, California</h2>
                         <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
                             I thrive on challenges to enhance my own creativity, critical thinking and understanding of development 

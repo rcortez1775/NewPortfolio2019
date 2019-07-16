@@ -10,24 +10,24 @@ class Projects extends Component {
         return(
             <div>
                 <div className="projectContainer">
-                    <div className="box3">
+                    <div className="box3 keepPUPBox">
                         <p className="appTitle">keepPUP</p>
                         <p className="appDescription">The keepPUP App allows users to keep up with their furry friends. Track when you feed and walk your dog with push notifications blah blah blah</p>
                     </div>
 
-                    <div className="box3">
+                    <div className="box3 keepPUPBox">
                         <img className="pup" src={Pup} alt="Pup"/>
                     </div>
                 </div>
 
                 <div className="projectContainer2">
-                    <div className="box3">
-                        <p className="codeTitle">myCodeCard</p>
-                        <p className="codeDescription">myCodeCard is an app where users can store related data and information on subjects learned. blah blah blah blah blah</p>
-                    </div>
-
-                    <div className="box3 codeBox">
+                    <div className="box3 keepPUPBox">
                         <img className="codeCard" src={CodeCard} alt="Codecard"/>
+                    </div>
+                    
+                    <div className="box3 keepPUPBox">
+                        <p className="appTitle">myCodeCard</p>
+                        <p className="codeDescription">myCodeCard is an app where users can store related data and information on subjects learned. blah blah blah blah blah</p>
                     </div>
                 </div>
 

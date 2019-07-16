@@ -1,21 +1,19 @@
 .aboutTitle {
     font-size: 55px;
     margin-bottom: 0.5em;
-    color: #111111;
+    color: #e53100;;
     font-weight: bold;
     margin-top: 2.5em;
 }
 
 .aboutSubTitle {
     color: #111111;
-    font-size: 22px;
     margin-top: -10px;
     width: 90%;
     margin-bottom: -1px;
 }
 
 .aboutSpan {
-    font-size: 20px;
     color: #111111;
 }
 
@@ -26,6 +24,7 @@
     margin-right: auto;
     display: block;
     border-radius: 50%;
+    
 }
 
 .container2 {
@@ -38,8 +37,8 @@
     margin-top: 2em;
     margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: #f7f7f7;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .container3 {
@@ -169,7 +168,7 @@ p {
     font-size: 55px;
     margin-bottom: 0.5em;
     font-weight: bold;
-    color: #111111;
+    color: #e53100;
 }
 
 .description {

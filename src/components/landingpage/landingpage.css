@@ -138,14 +138,14 @@ body html{
 
 .boxTitle {
     font-family: 'Dosis', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #666666;
 }
 
 .boxList {
     color: #111111;
     font-family: 'Dosis', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .card {

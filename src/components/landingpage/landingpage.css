@@ -19,8 +19,9 @@
     }
   }
 
-.hero h1 {
+.name {
     font-size: 90px;
+    width: 100%;
     color: #fafafa;
     margin-top: 0;
     margin-bottom: 10px;
@@ -28,7 +29,7 @@
     letter-spacing: 5px;
 }
 
-.hero h2 {
+.intro {
     color: #fafafa;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 5px;
@@ -75,7 +76,7 @@ body html{
       }
   }
 
-h3 {
+.textSkills {
     position: relative;
     font-size: 20px;
     z-index: 1;
@@ -86,7 +87,7 @@ h3 {
     margin-top: 5em;
 }
 
-  h3:before, h3:after {
+  .textSkills:before, .textSkills:after {
     position: absolute;
     top: 51%;
     overflow: hidden;
@@ -96,7 +97,7 @@ h3 {
     background-color: #dddddd;
 }
 
-h3:before {
+.textSkills:before {
     margin-left: -20%;
     text-align: right;
 }
@@ -138,7 +139,6 @@ h3:before {
 .boxTitle {
     font-family: 'Dosis', sans-serif;
     font-size: 40px;
-    font-weight: bold;
     color: #666666;
 }
 

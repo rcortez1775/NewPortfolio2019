@@ -11,8 +11,9 @@ class about extends Component {
             <div>
                 <div className="container2">
                     <div className="box2 boxAbout">
-                        <h1 className="aboutTitle">About me</h1>
-                        <h2 className="aboutSubTitle">I'm a Front-End developer based in Los Angeles, California</h2>
+                        <p className="aboutTitle">About me</p>
+                        <span className="aboutSubTitle">I'm a Front-End developer based in Los Angeles, California</span>
+                        <br/>
                         <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
                             I thrive on challenges to enhance my own creativity, critical thinking and understanding of development 
                             through implementation and exploration.
@@ -39,11 +40,12 @@ class about extends Component {
                     </main>
                     <div className="container3">
                         <div className="box2 rifleImage">
-                            <img className="rifle" src={Ega} alt="Rifle"/>
+                            <img className="ega" src={Ega} alt="ega"/>
                         </div>
                         <div className="box2 milBox">
-                            <h1 className="milTitle">Military service</h1>
-                            <h2 className="aboutSubTitle">U.S. Marine Corps</h2>
+                            <p className="milTitle">Military service</p>
+                            <span className="aboutSubTitle">U.S. Marine Corps</span>
+                            <br/>
                             <span className="aboutSpan">
                             My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operate and maintain logistics hardware and software.
                             </span>

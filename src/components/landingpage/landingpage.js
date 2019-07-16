@@ -9,8 +9,8 @@ class LandingPage extends Component {
             <div>
                 <section className="hero">
                     <div className="hero-inner">
-                        <h1 className="name">Robert Cortez</h1>
-                        <h2>Developer + Gamer + Dog Lover</h2>
+                        <p className="name">Robert Cortez</p>
+                        <p className="intro">Developer + Gamer + Dog Lover</p>
                         <div class="arrow">
                             <span></span>
                             <span></span>
@@ -20,7 +20,7 @@ class LandingPage extends Component {
                 </section>
                 <main>
                     <div>
-                        <h3 className="textSkills">&emsp;&emsp;SOME OF MY SKILLS&emsp;&emsp;</h3>
+                        <p className="textSkills">&emsp;&emsp;SOME OF MY SKILLS&emsp;&emsp;</p>
                     </div>
                     <div className="container">
                         <div className="box">

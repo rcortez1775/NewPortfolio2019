@@ -40,28 +40,28 @@ class LandingPage extends Component {
                             <div className="card">
                                 <span className="boxTitle">LIBRARIES</span>
                                 <br></br>
-                                <span className="boxList">REACT.JS</span>
-                                <br></br>
-                                <span className="boxList">jQUERY</span>
-                                <br></br>
                                 <span className="boxList">MATERIAL-UI</span>
                                 <br></br>
                                 <span className="boxList">BOOTSTRAP</span>
+                                <br></br>
+                                <span className="boxList">REACT.JS</span>
+                                <br></br>
+                                <span className="boxList">jQUERY</span>
                             </div>
                         </div>
                         <div className="box">
                             <div className="card">
                                 <span className="boxTitle">SERVER-SIDE</span>
                                 <br></br>
+                                <span className="boxList">MONGODB</span>
+                                <br></br>
+                                <span className="boxList">EXPRESS</span>
+                                <br></br>
                                 <span className="boxList">NODE.JS</span>
                                 <br></br>
                                 <span className="boxList">HEROKU</span>
                                 <br></br>
                                 <span className="boxList">MYSQL</span>
-                                <br></br>
-                                <span className="boxList">MONGODB</span>
-                                <br></br>
-                                <span className="boxList">EXPRESS</span>
                             </div>
                         </div>
                     </div>

@@ -3,6 +3,7 @@ import React from 'react';
 import './projects.css';
 import Pup from '../../images/keepPUP.jpg';
 import CodeCard from '../../images/codecard.jpg';
+import Circle from '../../images/circle.png';
 
 
 class Projects extends Component {
@@ -35,6 +36,21 @@ class Projects extends Component {
                         <span className="boldText">Made with:</span> React.JS, MongoDB, Express, Node.js and Material-UI
                         </p>
                     </div>
+                </div>
+
+                <div className="projectContainer">
+                    <div className="box3 keepPUPBox">
+                        <p className="appTitle">Circle of Friends</p>
+                        <p className="codeDescription">myCodeCard is an app where users can store related data 
+                        and information on subjects learned. blah blah blah blah blah.
+                        <span className="boldText">Made with:</span> React.JS, MongoDB, Express, Node.js and Material-UI
+                        </p>
+                    </div>
+
+                    <div className="box3 keepPUPBox">
+                        <img className="codeCard" src={Circle} alt="Circle"/>
+                    </div>
+
                 </div>
 
             </div>

@@ -6,7 +6,7 @@ import './landingpage.css';
 class LandingPage extends Component {
     render() {
         return(
-            <div>
+            <div className="body">
                 <section className="hero">
                     <div className="hero-inner">
                         <p className="name">Robert Cortez</p>

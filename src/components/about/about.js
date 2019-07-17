@@ -29,13 +29,13 @@ class about extends Component {
                             <h2 className="myEdu">EDUCATION</h2>
                             <p className="eduTitle">The Coding Bootcamp @ UC Irvine</p>
                             <p className="date">4.2018 - 7.2018</p>
-                            <p className="description">The coding bootcamp at UC Irvine was an immersive 12-week program. The course covered Computer Science applied to Javascript, browser based technologies, Databases and Deployment and server side development. The program was filed with so many intellectually curious individuals with diverse tech backgrounds.</p>
+                            <p className="description">The coding bootcamp at UC Irvine was an immersive 12-week program. The course covered Computer Science applied to Javascript, browser based technologies, Databases and Deployment and server side development. The program was filled with so many intellectually curious individuals with diverse tech backgrounds.</p>
                             <p className="eduTitle">The Coding Bootcamp @ Sabio</p>
                             <p className="date">1.2018 - 2.2018</p>
-                            <p className="description">drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off- then, I account it high time to get to sea as soon as I can.</p>
+                            <p className="description">The coding bootcamp at Sabio was a one month pre-work course that prepared students for an extensive 12 week course. The program highlighted the front-end and back-end technologies. I would have attended their 12 week program but found the curriculum at UC Irvine to be a bit more robust.</p>
                             <p className="eduTitle">CodeAcademy & Udemy</p>
                             <p className="date">11.2016 - Current</p>
-                            <p className="description">drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off- then, I account it high time to get to sea as soon as I can.</p>
+                            <p className="description">Both CodeAcademy and Udemy were my first introduction into programming. Lessons covered ranged from browser based technologies to server-side development. What I enjoy from these two platforms is the ease of accessibility and materials covered.</p>
                         </div>
                     </main>
                     <div className="container3">

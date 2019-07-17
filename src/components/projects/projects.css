@@ -37,6 +37,7 @@
     .keepPUPBox {
         margin-top: -5px;
     }
+    
 }
 
 @media screen and (max-width:600px) {
@@ -67,6 +68,7 @@
     display: block;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 
 .codeCard {
@@ -77,6 +79,11 @@
     display: block;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.codecardBox {
+    margin-bottom: -10px;
 }
 
 .boldText {
@@ -85,4 +92,9 @@
 
 .tech {
     margin-top: -40px;
+}
+
+.circle {
+    width: 90%;
+    cursor: pointer;
 }

@@ -18,32 +18,31 @@ class Projects extends Component {
                     </div>
 
                     <div className="box3 keepPUPBox">
-                        <img className="pup" src={Pup} alt="Pup"/>
+                        <img className="pup" src={Pup} alt="Pup" onClick={() => window.open("https://keeppup.herokuapp.com/", "_blank")}/>
                     </div>
                 </div>
 
                 <div className="projectContainer2">
                     <div className="box3 keepPUPBox">
-                        <img className="codeCard" src={CodeCard} alt="Codecard"/>
+                        <img className="codeCard" src={CodeCard} alt="Codecard" onClick={() => window.open("https://my-code-card.herokuapp.com/", "_blank")}/>
                     </div>
 
-                    <div className="box3 keepPUPBox">
+                    <div className="box3 keepPUPBox codecardBox">
                         <p className="appTitle">myCodeCard</p>
-                        <p className="codeDescription">MyCodeCard is a MERN stack application that allowed users to create a top level category card and dive further with populated information cards related to their parent category. The idea came from the many hurdles I faced when learning to program. Documentation can be advanced to parse through for beginners so we set out to create a simpler and intuitive way to solve that problem.</p>
+                        <p className="codeDescription">MyCodeCard is a MERN stack application that allows users to create a top level category card and dive further with populated information cards related to their parent category card. The idea came from the many hurdles I faced when learning to program. Documentation can be advanced to parse through for beginners so we set out to create a more simple and intuitive way to solve that problem.</p>
                         <p className="tech"><span className="boldText">Made with:</span> React.JS, MongoDB, Express, Node.js and Material-UI</p>
                     </div>
                 </div>
 
                 <div className="projectContainer">
                     <div className="box3 keepPUPBox">
-                        <p className="appTitle">Circle of Friends</p>
-                        <p className="codeDescription">myCodeCard is an app where users can store related data 
-                        and information on subjects learned. blah blah blah blah blah.</p>
-                        <p className="tech"><span className="boldText">Made with:</span> React.JS, MongoDB, Express, Node.js and Material-UI</p>
+                        <p className="appTitle circleFriends">Circle of Friends</p>
+                        <p className="codeDescription"> Using the Google API to attain a users location, users are able to set a geo pin in their most visited locations and add friends names. When the user visits the geo pin in the future, a notification alerts the user of who they know.  This was a really fun project as it’s framework can be used in a multitude of settings.</p>
+                        <p className="tech"><span className="boldText">Made with:</span>MySql, Express, Node.js, Javascript/jQuery and Materialize</p>
                     </div>
 
                     <div className="box3 keepPUPBox">
-                        <img className="codeCard" src={Circle} alt="Circle"/>
+                        <img className="codeCard circle" src={Circle} alt="Circle" onClick={() => window.open("https://circle-of-friends.herokuapp.com/", "_blank")}/>
                     </div>
 
                 </div>

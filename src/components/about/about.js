@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-import Me from '../../images/newme.jpg';
+import Me from '../../images/me.png';
 import Ega from '../../images/ega.png';
 
 

@@ -4,6 +4,7 @@ import './projects.css';
 import Pup from '../../images/keepPUP.jpg';
 import CodeCard from '../../images/codecard.jpg';
 import Circle from '../../images/circle.png';
+import Doom from '../../images/doomsday.png';
 
 
 class Projects extends Component {
@@ -37,14 +38,24 @@ class Projects extends Component {
                 <div className="projectContainer">
                     <div className="box3 keepPUPBox">
                         <p className="appTitle circleFriends">Circle of Friends</p>
-                        <p className="codeDescription"> Using the Google API to attain a users location, users are able to set a geo pin in their most visited locations and add friends names. When the user visits the geo pin in the future, a notification alerts the user of who they know.  This was a really fun project as it’s framework can be used in a multitude of settings.</p>
-                        <p className="tech"><span className="boldText">Made with:</span>MySql, Express, Node.js, Javascript/jQuery and Materialize</p>
+                        <p className="codeDescription">Using the Google API to attain a users location, users are able to set a geo pin in their most visited locations and add friends names. When the user visits the geo pin in the future, a notification alerts the user of who they know.  This was a really fun project as it’s framework can be used in a multitude of settings.</p>
+                        <p className="tech"><span className="boldText">Made with:</span> MySql, Express, Node.js, Javascript/jQuery and Materialize</p>
                     </div>
 
                     <div className="box3 keepPUPBox">
                         <img className="codeCard circle" src={Circle} alt="Circle" onClick={() => window.open("https://circle-of-friends.herokuapp.com/", "_blank")}/>
                     </div>
+                </div>
 
+                <div className="projectContainer doomsday">
+                    <div className="box3 keepPUPBox">
+                        <img className="codeCard circle" src={Doom} alt="Doomsday" onClick={() => window.open("https://rcortez1775.github.io/project1/", "_blank")}/>
+                    </div>
+                    <div className="box3 keepPUPBox">
+                        <p className="appTitle circleFriends">Doomsday Database</p>
+                        <p className="codeDescription">Doomsday Database was my first project. The assignment was to utilize 2 API’s to request information from those servers and integrate the received data into something fun. Users enter a year to see where in the world meteors have hit.</p>
+                        <p className="tech"><span className="boldText">Made with:</span> JavaScript and Google API</p>
+                    </div>
                 </div>
 
             </div>

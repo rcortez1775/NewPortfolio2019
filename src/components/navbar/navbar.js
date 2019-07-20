@@ -145,7 +145,7 @@ class ResAppBar extends Component{
                <ListItem><Link to="/" key = {1} button divider className={classes.drawer}>Home</Link></ListItem>
                <ListItem><Link to="/about" key = {2} button divider className={classes.drawer}>About Me</Link></ListItem>
                <ListItem><Link to="/projects" key = {3} button divider className={classes.drawer}>Projects</Link></ListItem>
-               <ListItem><Link to="/contact" key = {4} button divider className={classes.drawer}>Contact</Link></ListItem>
+               <ListItem><Link to="/contact" key = {4} button divider className={classes.drawer}>Articles</Link></ListItem>
                <ListItem>
                <div className={classes.iconBoxSmall}>
                   <img className={classes.iconsSmall} id="iconHover" src={Git} alt="Git" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/>  
@@ -175,7 +175,7 @@ class ResAppBar extends Component{
           <Link to="/" className={classes.link}>Home</Link>
           <Link to="/about" className={classes.link}>About Me</Link>
           <Link to="/projects" className={classes.link}>Projects</Link>
-          <Link to="/contact" className={classes.link}>Contact</Link>
+          <Link to="/contact" className={classes.link}>Articles</Link>
           <div className={classes.iconBox}>
             <img className={classes.icons} id="iconHover" src={Git} alt="Git" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/>  
             <img className={classes.icons} id="iconHover" src={Email} alt="Email" />

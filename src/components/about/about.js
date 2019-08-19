@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-import Me from '../../images/me.png';
+import Me from '../../images/robert.jpg';
 import Ega from '../../images/ega.png';
 
 
@@ -12,7 +12,7 @@ class about extends Component {
                 <div className="container2">
                     <div className="box2 boxAbout">
                         <p className="aboutTitle">About me</p>
-                        <span className="aboutSubTitle">I'm a Front-End developer based in Los Angeles, California</span>
+                        <span className="aboutSubTitle">I'm a Front-End developer based in Los Angeles.</span>
                         <br/>
                         <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
                             I thrive on challenges to enhance my own creativity, critical thinking and understanding of development 

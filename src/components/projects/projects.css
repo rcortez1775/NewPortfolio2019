@@ -102,3 +102,8 @@
 .doomsday {
     background-color: #ffffff;
 }
+
+.click {
+    color: #e53100;
+    cursor: pointer;
+}

@@ -20,7 +20,7 @@ class Projects extends Component {
                     </div>
 
                     <div className="box3 keepPUPBox">
-                        <img className="pup" src={Pup} alt="Pup" onClick={() => window.open("https://react-keepup.herokuapp.com/", "_blank")}/>
+                        <img className="pup" src={Pup} alt="Pup" onClick={() => window.open("https://react-keeppup.herokuapp.com/", "_blank")}/>
                     </div>
                 </div>
 

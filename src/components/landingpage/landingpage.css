@@ -30,13 +30,15 @@
     margin-bottom: 10px;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 5px;
+    text-shadow: 3px 3px #000000;
 }
 
 .intro {
     color: #fafafa;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 5px;
-    font-size: 16px;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000;
 }
 
 body html{
@@ -114,7 +116,7 @@ body html{
     flex-flow: wrap;
     margin-top: 5em;
     background-color: #f7f7f7;
-    margin-bottom: 3em;
+    padding-bottom: 3em;
 }
 
 .box {
@@ -122,7 +124,7 @@ body html{
     height: 300px;
     margin: 20px;
     box-sizing: border-box;
-    background-image: -webkit-linear-gradient(40deg, #bab2b5 10%, #ffffff 70%);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.1)), url(../../images/Up.png);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

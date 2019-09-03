@@ -47,7 +47,7 @@ class about extends Component {
                             <span className="aboutSubTitle">U.S. Marine Corps</span>
                             <br/>
                             <span className="aboutSpan">
-                            My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operate and maintain logistics hardware and software.
+                            My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operated and maintained logistics hardware and software.
                             </span>
                         </div>
                     </div>

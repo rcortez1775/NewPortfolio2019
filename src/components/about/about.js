@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-import Me from '../../images/robert.jpg';
+import Logo from '../../images/logo.png';
 import Ega from '../../images/ega.png';
 
 
@@ -20,7 +20,7 @@ class about extends Component {
                         </span>
                     </div>
                     <div className="box2 boxImage">
-                        <img className="me" src={Me} alt="Me"/>
+                        <img className="me" src={Logo} alt="Logo"/>
                     </div>
                 </div>
                 <div>

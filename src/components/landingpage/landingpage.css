@@ -139,6 +139,7 @@ body html{
     width: 100%;
     transform: rotate(-20deg);
     text-align: center;
+    backface-visibility: hidden;
 }
 
 .boxList {
@@ -164,7 +165,6 @@ body html{
 
 
 .flip-card {
-    background-color: transparent;
     box-sizing: border-box;
     margin: 20px;
     width: 300px;
@@ -196,7 +196,6 @@ body html{
     background-image: url("../../images/space.jpg");
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    backface-visibility: hidden;
   }
   
   .flip-card-back {
@@ -205,5 +204,4 @@ body html{
     transform: rotateY(180deg);
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    backface-visibility: hidden;
 }

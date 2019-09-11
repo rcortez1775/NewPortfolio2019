@@ -25,7 +25,7 @@ class LandingPage extends Component {
                     <div className="container">
                         <div class="flip-card">
                             <div class="flip-card-inner">
-                                <div class="flip-card-front">
+                                <div class="flip-card-front foundationCard">
                                     <p className="boxTitle">FOUNDATION</p>
                                 </div>  
                                 <div class="flip-card-back">
@@ -48,7 +48,7 @@ class LandingPage extends Component {
 
                         <div class="flip-card">
                             <div class="flip-card-inner">
-                                <div class="flip-card-front two">
+                                <div class="flip-card-front libraryCard">
                                     <p className="boxTitle">LIBRARIES</p>
                                 </div>
                                 <div class="flip-card-back two">
@@ -67,7 +67,7 @@ class LandingPage extends Component {
 
                         <div class="flip-card">
                             <div class="flip-card-inner">
-                                <div class="flip-card-front three">
+                                <div class="flip-card-front serverCard">
                                     <p className="boxTitle">SERVER-SIDE</p>
                                 </div>
                                 <div class="flip-card-back three">

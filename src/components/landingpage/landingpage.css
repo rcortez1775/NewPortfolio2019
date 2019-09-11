@@ -193,15 +193,43 @@ body html{
   }
   
   .flip-card-front {
-    background-image: url("../../images/space.jpg");
+    /* background-image: url(");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   
   .flip-card-back {
-    background-color: #c2c2c2;
+    background-color: #fafafa;
     border: 1.5px solid #000000;
     transform: rotateY(180deg);
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.foundationCard {
+    background-image: url("../../images/chalkboard.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.libraryCard {
+    background-image: url("../../images/books.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.serverCard {
+    background-image: url("../../images/server.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

@@ -1,15 +1,11 @@
 .hero {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../../images/bg1.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #fafafa;
 }
 
 .body {
@@ -23,63 +19,21 @@
   }
 
 .name {
-    font-size: 90px;
+    font-size: 80px;
     width: 100%;
-    color: #fafafa;
-    margin-top: 0;
+    color: #111111;
+    margin-top:2em;
     margin-bottom: 10px;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 5px;
-    text-shadow: 3px 3px #000000;
 }
 
 .intro {
-    color: #fafafa;
+    color: #111111;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 5px;
     font-size: 20px;
-    text-shadow: 2px 2px #000000;
 }
-
-body html{
-    margin: 0;
-    padding: 0;
-    background-color: #fafafa;
-  }
-  .arrow{
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translate(-50%,-50%);
-  }
-  .arrow span{
-      display: block;
-      width: 10px;
-      height: 10px;
-      border-bottom: 3px solid #fafafa;
-      border-right: 3px solid #fafafa;
-      transform: rotate(45deg);
-      animation: animate 2s infinite;
-  }
-  .arrow span:nth-child(2){
-      animation-delay: -0.2s;
-  }
-  .arrow span:nth-child(3){
-      animation-delay: -0.4s;
-  }
-  @keyframes animate {
-      0%{
-          opacity: 0;
-          transform: rotate(45deg) translate(-20px,-20px);
-      }
-      50%{
-          opacity: 1;
-      }
-      100%{
-          opacity: 0;
-          transform: rotate(45deg) translate(20px,20px);
-      }
-  }
 
 .textSkills {
     position: relative;
@@ -131,102 +85,41 @@ body html{
     }
 }
 
+.cardBox {
+    box-sizing: border-box;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    padding-top: 10px;
+}
+
+.boxCont {
+    text-align: center;
+    margin-top: -50px;
+}
+
 .boxTitle {
     font-family: 'Dosis', sans-serif;
-    font-size: 45px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-top: 2.5em;
-    color: #fafafa;
+    font-size: 21px;
+    letter-spacing: 1.2px;
+    color: #111111;
     width: 100%;
-    transform: rotate(-20deg);
     text-align: center;
     backface-visibility: hidden;
 }
 
 .boxList {
     font-family: 'Dosis', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: #000000;
-}
-
-.pushDwn {
-    margin-top: 5em;   
-}
-
-.card {
-    padding: 50px;
-    text-align: center;
+    font-size: 18px;
+    color: #666666;
 }
 
 .textSkills {
     color: #e53100;
-    font-weight: 600;
 }
 
-
-.flip-card {
-    box-sizing: border-box;
-    margin: 20px;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  
-  .flip-card-back {
-    background-color: #fafafa;
-    border: 1.5px solid #000000;
-    transform: rotateY(180deg);
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.foundationCard {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../images/chalkboard.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.libraryCard {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../images/books.jpeg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.serverCard {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../images/server.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.skillsIcon {
+    width: 75px;
+    margin-left: 39%;
 }

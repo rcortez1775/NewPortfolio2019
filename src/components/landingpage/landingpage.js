@@ -14,12 +14,12 @@ class LandingPage extends Component {
             <div className="body">
                 <section className="hero">
                     <div className="hero-inner">
-                        <p className="name">Robert Cortez</p>
+                        <p className="name">&lt;Robert Cortez/&gt;</p>
                         <p className="intro">Developer + Gamer + Dog Lover</p>
                     </div>
                 </section>
                 <main className="main">
-                    <div>
+                    <div className="pushUP">
                         <p className="textSkills">&emsp;&emsp;SOME OF MY SKILLS&emsp;&emsp;</p>
                     </div>
                     <div className="container">

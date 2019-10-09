@@ -11,7 +11,11 @@ html {
     text-align: center;
     background-color: #181212;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.hero-inner {
+    margin-top: -5em;
 }
 
 .body {
@@ -29,7 +33,7 @@ html {
     width: 100%;
     color: #FAFAFA;
     margin-top: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 5px;
 }

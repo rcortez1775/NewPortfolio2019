@@ -10,9 +10,6 @@ html {
     align-items: center;
     text-align: center;
     background-color: #181212;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
-    padding-bottom: 20px;
 }
 
 .hero-inner {
@@ -27,13 +24,17 @@ html {
     .hero {
       background-attachment: scroll;
     }
-  }
+}
+
+.myLogo {
+    width: 80px;
+    margin-top: 9em;
+}
 
 .name {
     font-size: 60px;
     width: 100%;
     color: #FAFAFA;
-    margin-top: 1em;
     margin-bottom: 5px;
     font-family: 'Patrick Hand', cursive;
     letter-spacing: 10px;

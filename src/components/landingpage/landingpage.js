@@ -1,9 +1,11 @@
 import { Component } from "react";
 import React from 'react';
 import './landingpage.css';
+import Icon from '../../images/rgb.png';
 import Foundation from '../../images/foundation.png';
 import Library from '../../images/library.png';
 import Server from '../../images/database.png';
+import Graphic from '../../images/graphic.png';
 
 
 
@@ -14,8 +16,9 @@ class LandingPage extends Component {
             <div className="body">
                 <section className="hero">
                     <div className="hero-inner">
+                        <img className="myLogo" src={Icon} alt="icon"/>
                         <p className="name">&lt;Robert Cortez/&gt;</p>
-                        <p className="intro">Developer + Gamer + Dog Lover</p>
+                        <p className="intro">Developer + Designer</p>
                     </div>
                 </section>
                 <main className="main">
@@ -27,7 +30,7 @@ class LandingPage extends Component {
                             <div class="iconBox">
                                 <img className="skillsIcon" src={Foundation} alt="Foundation"/>
                                 <p className="boxTitle">FOUNDATION</p>
-                            </div>  
+                            </div> 
                             <div className="boxCont">
                                 <span className="boxList">ES6 JAVASCRIPT</span>
                                 <br></br>
@@ -74,6 +77,20 @@ class LandingPage extends Component {
                                 <span className="boxList">HEROKU</span>
                                 <br></br>
                                 <span className="boxList">MYSQL</span>
+                            </div>  
+                        </div>
+
+                        <div class="cardBox">
+                            <div class="iconBox">
+                                <img className="skillsIcon" src={Graphic} alt="Graphic"/>
+                                <p className="boxTitle">UI/UX</p>
+                            </div>
+                            <div className="boxCont">
+                                <span className="boxList">MINDMANAGER</span>
+                                <br></br>
+                                <span className="boxList">BALSAMIQ</span>
+                                <br></br>
+                                <span className="boxList">FIGMA</span>
                             </div>  
                         </div>
                     </div>

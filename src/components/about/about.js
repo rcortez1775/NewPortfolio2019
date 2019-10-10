@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-import Logo from '../../images/logo.png';
+// import Logo from '../../images/logo.png';
 import Ega from '../../images/ega.png';
 
 
@@ -11,7 +11,7 @@ class about extends Component {
             <div>
                 <div className="container2">
                     <div className="box2 boxAbout">
-                        <p className="aboutTitle">About me</p>
+                        <p className="aboutTitle">&#91;About me&#93;</p>
                         <span className="aboutSubTitle">I'm a Front-End developer based in Los Angeles.</span>
                         <br/>
                         <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
@@ -19,9 +19,9 @@ class about extends Component {
                             through implementation and exploration.
                         </span>
                     </div>
-                    <div className="box2 boxImage">
+                    {/* <div className="box2 boxImage">
                         <img className="me" src={Logo} alt="Logo"/>
-                    </div>
+                    </div> */}
                 </div>
                 <div>
                     <main className="main">

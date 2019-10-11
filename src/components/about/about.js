@@ -1,29 +1,20 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-// import Logo from '../../images/logo.png';
-import Ega from '../../images/ega.png';
+import Rainbow from '../../images/rainbow.png';
 
 
 class about extends Component {
     render() {
         return(
-            <div>
-                <div className="container2">
-                    <div className="box2 boxAbout">
-                        <p className="aboutTitle">&#91;About me&#93;</p>
-                        <span className="aboutSubTitle">I'm a Front-End developer based in Los Angeles.</span>
-                        <br/>
-                        <span className="aboutSpan">I'm an energetic and ambitious developer with a focus on fun, attractive, user-friendly web applications. 
-                            I thrive on challenges to enhance my own creativity, critical thinking and understanding of development 
-                            through implementation and exploration.
-                        </span>
+            <div className="body">
+                <section className="hero">
+                    <div className="hero-inner">
+                        <img className="rainbow" src={Rainbow} alt="rainbow"/>
+                        <p className="aboutTitle">Hello There!</p>
+                        <p className="aboutSpan">Creatively Curios. </p>
                     </div>
-                    {/* <div className="box2 boxImage">
-                        <img className="me" src={Logo} alt="Logo"/>
-                    </div> */}
-                </div>
-                <div>
+                </section>
                     <main className="main">
                         <div class="moby">
                             <h2 className="myEdu">EDUCATION</h2>
@@ -39,9 +30,6 @@ class about extends Component {
                         </div>
                     </main>
                     <div className="container3">
-                        <div className="box2 rifleImage">
-                            <img className="ega" src={Ega} alt="ega"/>
-                        </div>
                         <div className="box2 milBox">
                             <p className="milTitle">Military service</p>
                             <span className="aboutSubTitle">U.S. Marine Corps</span>
@@ -51,7 +39,6 @@ class about extends Component {
                             </span>
                         </div>
                     </div>
-                </div>
             </div>
         )
     }

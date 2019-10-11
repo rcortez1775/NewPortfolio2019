@@ -20,12 +20,6 @@ html {
     background-color: #f7f7f7;
 }
 
-@media only screen and (max-device-width: 1366px) {
-    .hero {
-      background-attachment: scroll;
-    }
-}
-
 .myLogo {
     width: 80px;
     margin-top: 9em;
@@ -115,7 +109,7 @@ html {
 
 .boxCont {
     text-align: center;
-    margin-top: -50px;
+    margin-top: -75px;
 }
 
 .boxTitle {

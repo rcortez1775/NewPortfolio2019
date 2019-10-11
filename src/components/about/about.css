@@ -1,22 +1,38 @@
-.aboutTitle {
-    font-size: 55px;
-    margin-bottom: 0.5em;
-    color: #111111;
-    margin-top: 2.5em;
-    width: 100%;
-    font-family: 'Patrick Hand', cursive;
+.rainbow {
+    width: 80px;
+    margin-top: 9em;
 }
 
-.aboutSubTitle {
-    margin-top: -10px;
-    width: 90%;
-    font-weight: 800;
-    margin-bottom: -1px;
-    color: #e53100;
+.aboutTitle {
+    font-size: 60px;
+    width: 100%;
+    color: #fafafa;
+    margin-bottom: 5px;
+    margin-top: -25px;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 10px;
+}
+
+@media screen and (max-width:1200px){
+    .aboutTitle {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .aboutTitle {
+        font-size: 30px;
+    }
+    .aboutSpan {
+        font-size: 20px;
+    }
 }
 
 .aboutSpan {
-    color: #111111;
+    color: #fafafa;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 5px;
+    font-size: 20px;
 }
 
 .me {
@@ -33,14 +49,13 @@
 
 .container2 {
     width: 100wh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
-    margin-top: 2em;
-    margin-bottom: 5em;
     font-family: 'Dosis', sans-serif;
-    background: #f7f7f7;
+    background: #181212;
 }
 
 
@@ -52,7 +67,6 @@
     justify-content: space-around;
     flex-flow: wrap;
     margin-top: 5em;
-    margin-bottom: -10em;
     font-family: 'Dosis', sans-serif;
     background-color: #f7f7f7;
 }
@@ -66,21 +80,10 @@
         background-attachment: scroll;
         text-align: center;
       }
-  }
-
-.box2 {
-    width: 45%;
-    height: auto;
-    margin: 5px;
-    padding: 15px;
-    box-sizing: border-box;
-    margin-bottom: 5em;
-    margin-top: 8em;
-    text-align: center;
 }
 
 .boxAbout {
-    width: 30%;
+    width: 80%;
     margin-top: 0.1em;
 }
 
@@ -174,14 +177,5 @@ p {
 }
 
 .description {
-    margin-top: -45px;
     color: #111111;
-}
-
-.ega {
-    width: 60%; 
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }

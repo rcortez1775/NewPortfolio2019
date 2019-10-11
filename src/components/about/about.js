@@ -3,6 +3,7 @@ import React from 'react';
 import './about.css';
 import Rainbow from '../../images/rainbow.png';
 import Certificate from '../../images/certificate.png';
+import Military from '../../images/chevron.png';
 
 
 class about extends Component {
@@ -12,11 +13,11 @@ class about extends Component {
                 <section className="hero">
                     <div className="hero-inner">
                         <img className="rainbow" src={Rainbow} alt="rainbow"/>
-                        <p className="aboutTitle">Hello There!</p>
+                        <p className="aboutTitle">Hey There!</p>
                         <p className="aboutSpan">Creatively curios me. </p>
                     </div>
                 </section>
-                    <main className="main">
+                    <div className="main">
                         <div className="pushUP">
                             <p className="education textSkills">&emsp;&emsp;EDUCATION&emsp;&emsp;</p>
                         </div>
@@ -46,17 +47,18 @@ class about extends Component {
                                 </div>
                             </div>
                         </div>
-                    </main>
-                    {/* <div className="container3">
-                        <div className="box2 milBox">
-                            <p className="milTitle">Military service</p>
-                            <span className="aboutSubTitle">U.S. Marine Corps</span>
-                            <br/>
-                            <span className="aboutSpan">
-                            My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operated and maintained logistics hardware and software.
-                            </span>
+                    </div>
+                    <div className="container3">
+                        <p className="education textSkills one">&emsp;&emsp;Military&emsp;&emsp;</p>
+                        <div className="milService">
+                            <div className="boxCont">
+                                <img className="graduate" src={Military} alt="chevron"/>
+                                <p className="eduTitle marine">U.S. Marine Corps</p>
+                                <p className="date">8.2005 - 9.2009</p>
+                                <p className="information">My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operated and maintained logistics hardware and software.</p>
+                            </div>
                         </div>
-                    </div> */}
+                    </div>
             </div>
         )
     }

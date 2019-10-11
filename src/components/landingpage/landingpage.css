@@ -116,10 +116,9 @@ html {
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
     letter-spacing: 5px;
-    color: #111111;
+    color: #181212;
     width: 100%;
     text-align: center;
-    backface-visibility: hidden;
     margin-top: -5px;
 }
 

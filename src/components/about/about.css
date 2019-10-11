@@ -132,27 +132,14 @@ p {
     margin-bottom: 3em;
     font-family: 'Dosis', sans-serif;
 }
-
-.moby {
-    max-width: 100%;
-    position: relative;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
   
-  .myEdu {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 6%;
-    writing-mode: vertical-rl;
-    position: absolute;
-    left: 0;
-    top: 0;
-    line-height: 1; 
+.education {
+    padding-top: 5px;
+    letter-spacing: 5px;
+    text-align: center;
     color: #e53100;
     font-family: 'Dosis', sans-serif;
-    font-size: 100px;
+    font-size: 25px;
   }
 
   .eduTitle {

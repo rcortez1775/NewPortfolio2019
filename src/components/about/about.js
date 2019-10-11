@@ -12,12 +12,12 @@ class about extends Component {
                     <div className="hero-inner">
                         <img className="rainbow" src={Rainbow} alt="rainbow"/>
                         <p className="aboutTitle">Hello There!</p>
-                        <p className="aboutSpan">Creatively Curios. </p>
+                        <p className="aboutSpan">Creatively curios me. </p>
                     </div>
                 </section>
                     <main className="main">
-                        <div class="moby">
-                            <h2 className="myEdu">EDUCATION</h2>
+                        <div class="">
+                            <h2 className="education">EDUCATION</h2>
                             <p className="eduTitle">The Coding Bootcamp @ UC Irvine</p>
                             <p className="date">4.2018 - 7.2018</p>
                             <p className="description">The coding bootcamp at UC Irvine was an immersive 12-week program. The course covered Computer Science applied to Javascript, browser based technologies, Databases and Deployment and server side development. The program was filled with so many intellectually curious individuals with diverse tech backgrounds.</p>

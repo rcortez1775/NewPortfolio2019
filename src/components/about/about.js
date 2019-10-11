@@ -49,7 +49,7 @@ class about extends Component {
                         </div>
                     </div>
                     <div className="container3">
-                        <p className="education textSkills one">&emsp;&emsp;Military&emsp;&emsp;</p>
+                        <p className="education textSkills one">&emsp;&emsp;MILITARY&emsp;&emsp;</p>
                         <div className="milService">
                             <div className="boxCont">
                                 <img className="graduate" src={Military} alt="chevron"/>

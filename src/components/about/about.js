@@ -14,7 +14,7 @@ class about extends Component {
                     <div className="hero-inner">
                         <img className="rainbow" src={Rainbow} alt="rainbow"/>
                         <p className="aboutTitle">Hey There!</p>
-                        <p className="aboutSpan">Creatively curios me. </p>
+                        <p className="aboutSpan">Creatively curios me.</p>
                     </div>
                 </section>
                     <div className="main">

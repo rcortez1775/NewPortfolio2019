@@ -1,4 +1,43 @@
-.projectContainer {
+.projectBox {
+    box-sizing: border-box;
+    margin: 25px;
+    width: 325px;
+    height: 250px;
+    perspective: 1000px;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.projectIMG {
+    background-image: url(https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80);
+    border-radius: 5px;
+    margin: 8px;
+    margin-top: -3px;
+    height: 175px;
+}
+
+.projectInfo {
+    margin-left: -35px;
+}
+
+.projectTitle {
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.projectAbout {
+    font-family: 'Dosis', sans-serif;
+    color: #666666;
+    margin-top: -60px;
+}
+
+#projectHover { transition: all .2s ease-in-out; }
+#projectHover:hover { transform: scale(1.1); }
+
+/* .projectContainer {
     width: 100%;
     height: auto;
     display: flex;
@@ -106,4 +145,4 @@
 .click {
     color: #e53100;
     cursor: pointer;
-}
+} */

@@ -23,7 +23,7 @@ class LandingPage extends Component {
                 </section>
                 <main className="main">
                     <div className="pushUP">
-                        <p className="textSkills">&emsp;&emsp;SOME OF MY SKILLS&emsp;&emsp;</p>
+                        <p className="textSkills">&emsp;&emsp;SKILL SET&emsp;&emsp;</p>
                     </div>
                     <div className="container">
                         <div class="cardBox">

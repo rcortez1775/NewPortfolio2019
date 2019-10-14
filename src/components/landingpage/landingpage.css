@@ -23,6 +23,19 @@ html {
 .myLogo {
     width: 80px;
     margin-top: 9em;
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 .name {
@@ -106,7 +119,6 @@ html {
     height: 300px;
     perspective: 1000px;
     padding-top: 10px;
-    
 }
 
 .boxCont {
@@ -115,9 +127,8 @@ html {
 }
 
 .boxTitle {
-    font-family: 'Dosis', sans-serif;
     font-size: 25px;
-    letter-spacing: 5px;
+    font-family: 'Dosis', sans-serif;
     color: #181212;
     width: 100%;
     text-align: center;
@@ -132,9 +143,11 @@ html {
 
 .textSkills {
     color: #e53100;
+    letter-spacing: 5px;
 }
 
 .skillsIcon {
-    width: 95px;
-    margin-left: 34%;
+    width: 80px;
+    margin-left: 36%;
+    margin-bottom: 5px;
 }

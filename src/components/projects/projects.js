@@ -1,17 +1,70 @@
 import { Component } from "react";
 import React from 'react';
 import './projects.css';
-import Pup from '../../images/keepPUP.jpg';
-import CodeCard from '../../images/codecard.jpg';
-import Circle from '../../images/circle.png';
-import Doom from '../../images/doomsday.png';
+import Rubik from '../../images/rubik.png';
 
 
 class Projects extends Component {
     render() {  
         return(
-            <div>
-                <div className="projectContainer">
+            <div className="body">
+                <section className="hero">
+                    <div className="hero-inner">
+                        <img className="rainbow" src={Rubik} alt="rubik"/>
+                        <p className="aboutTitle">Design & Dev</p>
+                        <p className="aboutSpan">"You don't have to show them. They'll see it!"</p>
+                    </div>
+                </section>
+                <div className="main">
+                    <div className="pushUP">
+                        <p className="education textSkills">&emsp;&emsp;APPS&emsp;&emsp;</p>
+                    </div>
+                    <div className="container"> 
+                        <div className="projectBox" id="projectHover">
+                            <div className="projectIMG">
+
+                            </div>
+                            <div className="projectInfo">
+                                <p className="projectTitle">KeepPUP</p>
+                                <p className="projectAbout">Mobile App Design & Development</p>
+                            </div>
+
+                        </div>
+
+                        <div className="projectBox" id="projectHover">
+                            <div className="projectIMG">
+
+                            </div>
+                            <div className="projectInfo">
+                                <p className="projectTitle">MyCodeCard</p>
+                                <p className="projectAbout">Website Design & Development</p>
+                            </div>
+                        </div>
+
+                        <div className="projectBox" id="projectHover">
+                            <div className="projectIMG">
+
+                            </div>
+                            <div className="projectInfo">
+                                <p className="projectTitle">Circle of Friends</p>
+                                <p className="projectAbout">Website Design & Development</p>
+                            </div>
+                        </div>
+
+                        <div className="projectBox" id="projectHover">
+                            <div className="projectIMG">
+
+                            </div>
+                            <div className="projectInfo">
+                                <p className="projectTitle">Doomsday Database</p>
+                                <p className="projectAbout">Website Design & Development</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {/* <div className="projectContainer">
                     <div className="box3 keepPUPBox">
                         <p className="appTitle">keepPUP</p>
                         <p className="appDescription">The keepPUP app evolved from the idea of wanting a better way to track and share all my pet’s activities. With keepPUP, users can store when they walked or fed their pet and share that information with other users. Building the app was a lot of fun as it allowed me to really show my personality with design and UI.</p>
@@ -60,7 +113,7 @@ class Projects extends Component {
                         <p className="tech"><span className="boldText">Made with:</span> JavaScript and Google API</p>
                         <p className="tech"><span className="boldText">Check out the Code:</span> <span className="click" onClick={() => window.open("https://github.com/rcortez1775/project1", "_blank")}> "Beam me up, Scotty"</span></p>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         )

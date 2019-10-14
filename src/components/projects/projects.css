@@ -37,6 +37,25 @@
 #projectHover { transition: all .2s ease-in-out; }
 #projectHover:hover { transform: scale(1.1); }
 
+.devIconBox {
+    float: right;
+    margin-top: 10px;
+}
+
+.devIconBox2 {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.devIcon {
+    width:35px;
+}
+
+.devIcon2 {
+    width: 30px;
+}
+
 /* .projectContainer {
     width: 100%;
     height: auto;

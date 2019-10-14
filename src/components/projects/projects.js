@@ -2,6 +2,8 @@ import { Component } from "react";
 import React from 'react';
 import './projects.css';
 import Rubik from '../../images/rubik.png';
+import Mobile from '../../images/mobile.png';
+import Monitor from '../../images/monitor.png';
 
 
 class Projects extends Component {
@@ -24,16 +26,21 @@ class Projects extends Component {
                             <div className="projectIMG">
 
                             </div>
+                            <div className="devIconBox">
+                                <img className="devIcon" src={Mobile} alt="mobile"/>
+                            </div>
                             <div className="projectInfo">
                                 <p className="projectTitle">KeepPUP</p>
                                 <p className="projectAbout">Mobile App Design & Development</p>
                             </div>
-
                         </div>
 
                         <div className="projectBox" id="projectHover">
                             <div className="projectIMG">
 
+                            </div>
+                            <div className="devIconBox2">
+                                <img className="devIcon2" src={Monitor} alt="Monitor"/>
                             </div>
                             <div className="projectInfo">
                                 <p className="projectTitle">MyCodeCard</p>
@@ -45,6 +52,9 @@ class Projects extends Component {
                             <div className="projectIMG">
 
                             </div>
+                            <div className="devIconBox2">
+                                <img className="devIcon2" src={Monitor} alt="Monitor"/>
+                            </div>
                             <div className="projectInfo">
                                 <p className="projectTitle">Circle of Friends</p>
                                 <p className="projectAbout">Website Design & Development</p>
@@ -54,6 +64,9 @@ class Projects extends Component {
                         <div className="projectBox" id="projectHover">
                             <div className="projectIMG">
 
+                            </div>
+                            <div className="devIconBox2">
+                                <img className="devIcon2" src={Monitor} alt="monitor"/>
                             </div>
                             <div className="projectInfo">
                                 <p className="projectTitle">Doomsday Database</p>

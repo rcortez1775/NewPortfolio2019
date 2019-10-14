@@ -51,3 +51,14 @@
 }
 
 
+.oop {
+    background-image: url('../../images/oop.png');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    border-radius: 5px;
+    margin: 8px;
+    margin-top: -3px;
+    height: 175px;
+}

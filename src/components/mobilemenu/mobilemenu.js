@@ -28,7 +28,6 @@ const styles = {
       padding: '15px',
       textDecoration: 'none',
       color: '#F7F9FB',
-      marginTop: '10px',
     },
     icons: {
       width: '30px',
@@ -71,8 +70,7 @@ const styles = {
           </div>
           <Link to="/" className={classes.link}>Home</Link>
           <Link to="/about" className={classes.link}>About Me</Link>
-          <Link to="/projects" className={classes.link}>Projects</Link>
-          <Link to="/contact" className={classes.link}>Contact</Link>
+          <Link to="/projects" className={classes.link}>Portfolio</Link>
           <div className={classes.iconBox}>
             <img className={classes.icons} id="iconHover" src={Git} alt="Git" />  
             <img className={classes.icons} id="iconHover" src={Email} alt="Email" />

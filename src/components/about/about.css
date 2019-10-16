@@ -13,6 +13,27 @@
     letter-spacing: 10px;
 }
 
+.boy {
+    width: 55px;
+    margin-top: 2em;
+}
+
+.aboutMeDiv {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutMe {
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    margin-top: 2em;
+}
+
+.sec {
+    margin-top: -30px;
+}
+
 @media screen and (max-width:1200px){
     .aboutTitle {
         width: 100%;
@@ -105,6 +126,12 @@
     }
     span{
         width: 75px;
+    }
+    .mobileBox {
+        margin-bottom: 30px;
+    }
+    .aboutMeDiv {
+        width: 80%;
     }
 }
 

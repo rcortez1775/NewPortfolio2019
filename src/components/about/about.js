@@ -4,6 +4,7 @@ import './about.css';
 import Rainbow from '../../images/rainbow.png';
 import Certificate from '../../images/certificate.png';
 import Military from '../../images/chevron.png';
+import Boy from '../../images/boy.png';
 
 
 class about extends Component {
@@ -18,11 +19,16 @@ class about extends Component {
                     </div>
                 </section>
                     <div className="main">
+                        <div class className="aboutMeDiv">
+                            <img className="boy" src={Boy} alt="boy"/>
+                            <p className="aboutMe">I’m Robert. A UI/UX Designer and Developer based in Los Angeles. I’m curiously passionate about understanding the thought process and feelings of users that dictate the decisions they make. </p>
+                            <p className="aboutMe sec">My goal as a designer/developer is to create meaningful and engaging experiences. To learn and test new concepts, ideas, and processes that continually push the boundaries of what I know.</p>
+                        </div>
                         <div className="pushUP">
                             <p className="education textSkills">&emsp;&emsp;EDUCATION&emsp;&emsp;</p>
                         </div>
                         <div class="container">
-                            <div className="cardBox">
+                            <div className="cardBox mobileBox">
                                 <div className="boxCont">
                                     <img className="graduate" src={Certificate} alt="graduate"/>
                                     <p className="eduTitle">UC Irvine Coding Bootcamp</p>
@@ -30,7 +36,7 @@ class about extends Component {
                                     <p className="description">The coding bootcamp at UC Irvine was an immersive 12-week program. The course covered Computer Science applied to Javascript, browser based technologies, Databases and Deployment and server side development. The program was filled with so many intellectually curious individuals with diverse tech backgrounds.</p>
                                 </div>
                             </div>
-                            <div className="cardBox">
+                            <div className="cardBox mobileBox">
                                 <div className="boxCont">
                                     <img className="graduate" src={Certificate} alt="graduate"/>
                                     <p className="eduTitle">Sabio Coding Bootcamp</p>
@@ -38,7 +44,7 @@ class about extends Component {
                                     <p className="description">The coding bootcamp at Sabio was a one month pre-work course that prepared students for an extensive 12 week course. The program highlighted the front-end and back-end technologies. I would have attended their 12 week program but found the curriculum at UC Irvine to be a bit more robust.</p>
                                 </div>
                             </div>
-                            <div className="cardBox">
+                            <div className="cardBox mobileBox">
                                 <div className="boxCont">
                                     <img className="graduate" src={Certificate} alt="graduate"/>
                                     <p className="eduTitle">CodeAcademy & Udemy</p>

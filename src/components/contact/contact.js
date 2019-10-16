@@ -26,24 +26,11 @@ class Contact extends Component {
                             </div>
                             <div className="projectInfo">
                                 <p className="projectTitle">OOP</p>
-                                <p className="projectAbout">An Intro into Object Oriented Programming.</p>
+                                <p className="projectAbout">Intro to Object Oriented Programming.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-                {/* <div className="projectContainer">
-                    <div className="box3 keepPUPBox">
-                        <p className="appTitle">Intro to OOP</p>
-                        <p className="codeDescription">When I first became a developer, the term Object Oriented Programming was in almost every job posting and interview prep article.  To illustrate this programming paradigm, I used  the popular game Overwatch.</p>
-                    </div>
-
-                    <div className="box3 keepPUPBox">
-                        <img className="codeCard circle" src={OOP} alt="OOP" onClick={() => window.open("https://medium.com/@robertanthonycortez/an-overview-of-oop-494813c40039", "_blank")}/>
-                    </div>
-
-                </div> */}
             </div>
         )
     }

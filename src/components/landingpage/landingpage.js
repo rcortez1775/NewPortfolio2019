@@ -29,54 +29,54 @@ class LandingPage extends Component {
                         <div class="cardBox">
                             <div class="iconBox">
                                 <img className="skillsIcon" src={Foundation} alt="Foundation"/>
-                                <p className="boxTitle">FOUNDATION</p>
+                                <p className="boxTitle">Foundation</p>
                             </div> 
                             <div className="boxCont">
-                                <span className="boxList">ES6 JAVASCRIPT</span>
+                                <span className="boxList">ES6 JavaScript</span>
                                 <br></br>
-                                <span className="boxList">NIGHTMARE</span>
+                                <span className="boxList">Nightmare</span>
                                 <br></br>
                                 <span className="boxList">HTML(5)</span>
                                 <br></br>
                                 <span className="boxList">CSS(3)</span>
                                 <br></br>
-                                <span className="boxList">JEST</span>
+                                <span className="boxList">Jest</span>
                                 <br></br>
-                                <span className="boxList">GIT</span>
+                                <span className="boxList">Git</span>
                             </div>      
                         </div>
 
                         <div class="cardBox">
                             <div class="iconBox">
                                 <img className="skillsIcon" src={Library} alt="Library"/>
-                                <p className="boxTitle">LIBRARIES</p>
+                                <p className="boxTitle">Libraries</p>
                             </div>
                             <div class="boxCont">
-                                <span className="boxList">MATERIAL-UI</span>
+                                <span className="boxList">Material-UI</span>
                                 <br></br>
-                                <span className="boxList">BOOTSTRAP</span>
+                                <span className="boxList">Bootstrap</span>
                                 <br></br>
-                                <span className="boxList">REACTJS</span>
+                                <span className="boxList">ReactJS</span>
                                 <br></br>
-                                <span className="boxList">jQUERY</span>
+                                <span className="boxList">jQuery</span>
                             </div>
                         </div>
 
                         <div class="cardBox">
                             <div class="iconBox">
                                 <img className="skillsIcon" src={Server} alt="Foundation"/>
-                                <p className="boxTitle">SERVER-SIDE</p>
+                                <p className="boxTitle">Server-Side</p>
                             </div>
                             <div className="boxCont">
-                                <span className="boxList">MONGODB</span>
+                                <span className="boxList">MongoDB</span>
                                 <br></br>
-                                <span className="boxList">EXPRESS</span>
+                                <span className="boxList">Express</span>
                                 <br></br>
-                                <span className="boxList">NODEJS</span>
+                                <span className="boxList">NodeJS</span>
                                 <br></br>
-                                <span className="boxList">HEROKU</span>
+                                <span className="boxList">Heroku</span>
                                 <br></br>
-                                <span className="boxList">MYSQL</span>
+                                <span className="boxList">MySql</span>
                             </div>  
                         </div>
 
@@ -86,11 +86,11 @@ class LandingPage extends Component {
                                 <p className="boxTitle">UI/UX</p>
                             </div>
                             <div className="boxCont">
-                                <span className="boxList">MINDMANAGER</span>
+                                <span className="boxList">MindManager</span>
                                 <br></br>
-                                <span className="boxList">BALSAMIQ</span>
+                                <span className="boxList">Balsamiq</span>
                                 <br></br>
-                                <span className="boxList">FIGMA</span>
+                                <span className="boxList">Figma</span>
                             </div>  
                         </div>
                     </div>

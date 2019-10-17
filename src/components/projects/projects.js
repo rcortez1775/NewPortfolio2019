@@ -27,7 +27,7 @@ class Projects extends Component {
                     </div>
                     <div className="container"> 
                         <div className="projectBox" id="projectHover">
-                            <div className="projectIMG">
+                            <div className="projectIMG" onClick={() => window.open("https://github.com/rcortez1775/ReactkeepPUP", "_blank")}>
                                 <img className="image" src={KeepPUP} alt="keepPUP"/>
                             </div>
                             <div className="devIconBox">
@@ -40,7 +40,7 @@ class Projects extends Component {
                         </div>
 
                         <div className="projectBox" id="projectHover">
-                            <div className="projectIMG">
+                            <div className="projectIMG" onClick={() => window.open("https://github.com/The-Gummy-Bears/CodeCards", "_blank")}>
                                 <img className="image" src={CodeCard} alt="codecard"/>
                             </div>
                             <div className="devIconBox2">
@@ -53,7 +53,7 @@ class Projects extends Component {
                         </div>
 
                         <div className="projectBox" id="projectHover">
-                            <div className="projectIMG">
+                            <div className="projectIMG" onClick={() => window.open("https://github.com/The-Real-Tardigrades/Contextual-Geolocation", "_blank")}>
                                 <img className="image" src={Circle} alt="circle"/>
                             </div>
                             <div className="devIconBox2">
@@ -66,7 +66,7 @@ class Projects extends Component {
                         </div>
 
                         <div className="projectBox" id="projectHover">
-                            <div className="projectIMG">
+                            <div className="projectIMG" onClick={() => window.open("https://github.com/Rocky-Road/project1", "_blank")}>
                                 <img className="image" src={Doomsday} alt="doomsday"/>
                             </div>
                             <div className="devIconBox2">

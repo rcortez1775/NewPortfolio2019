@@ -21,8 +21,8 @@ class about extends Component {
                     <div className="main">
                         <div class className="aboutMeDiv">
                             <img className="boy" src={Boy} alt="boy"/>
-                            <p className="aboutMe">I’m Robert. A UI/UX Designer and Developer based in Los Angeles. I’m curiously passionate about understanding the thought process and feelings of users that dictate the decisions they make. </p>
-                            <p className="aboutMe sec">My goal as a designer/developer is to create meaningful and engaging experiences. To learn and test new concepts, ideas, and processes that continually push the boundaries of what I know.</p>
+                            <p className="aboutMe">I’m Robert. A UI/UX Designer and Developer based in Los Angeles. I’m passionately curious about learning how people’s thought processes and feelings drive the decisions they make.</p>
+                            <p className="aboutMe sec">My goal as a designer & developer is to create meaningful and engaging experiences that are easily accessible and functional. To learn and test new concepts and ideas that will allow me to grow both professionally and personally.</p>
                         </div>
                         <div className="pushUP">
                             <p className="education textSkills">&emsp;&emsp;EDUCATION&emsp;&emsp;</p>

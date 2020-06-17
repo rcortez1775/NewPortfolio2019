@@ -4,12 +4,9 @@ import {
   AppBar, Toolbar, Typography, List, ListItem,
   withStyles, Grid, SwipeableDrawer
 } from '@material-ui/core';
-import Logo from '../../images/logo.png';
 import {Link} from 'react-router-dom';
-import Email from '../../images/email.png';
-import Linkedin from '../../images/linkedin.png';
-import Facebook from '../../images/facebook.png';
-import Git from '../../images/git.png';
+// import Linkedin from '../../images/linkedin.png';
+// import Git from '../../images/git.png';
 import menuBar from '../../images/menu.png';
 import './navbar.css';
 
@@ -17,29 +14,28 @@ import './navbar.css';
 const styles = {
   list : {
     width : '250',
-    background: '#111111',
-    
+    background: 'transparent',
   },
   padding : {
     paddingRight : 30,
     cursor : "pointer",
   },
-
   sideBarIcon : {
-    color : "white",
+    color : "black",
     cursor : "pointer",
     position: 'absolute',
     right: '0',
     padding: '20px',
     width: '40px',
-    marginTop: '-40px',
+    marginTop: '-30px',
   },
   appBar: {
-    background: '#111111',
-    position: 'fixed',
-    height: '90px',
-    fontFamily: 'Dosis, sans-serif',
-    fontSize: '25px',
+    background: 'transparent',
+    position: 'absolute',
+    boxShadow: 'none',
+    height: '70px',
+    fontFamily: 'Patrick Hand, cursive',
+    fontSize: '20px',
   },
   logo: {
     width: '70px',
@@ -47,13 +43,16 @@ const styles = {
   logoBox: {
     left: '0',
     marginLeft: '-10px',
-    marginTop: '10px',
+    marginTop: '-5px',
+    textAlign: 'center',
   },
   link: {
     padding: '15px',
     textDecoration: 'none',
-    color: '#F7F9FB',
+    color: '#ffffff',
     marginTop: '-10px',
+    fontWeight: '550',
+    letterSpacing: '2px',
   },
   icons: {
     width: '30px',
@@ -120,11 +119,11 @@ class ResAppBar extends Component{
                 <img className = {this.props.classes.sideBarIcon}
                   onClick={()=>{this.setState({drawer:true})}} src={menuBar} alt="Menu" /> 
               </div>
-                <Typography variant = "headline" style={{flexGrow:1}} color="inherit" >
+                {/* <Typography variant = "headline" style={{flexGrow:1}} color="inherit" >
                   <div className={classes.logoBox}>
                     <img className={classes.logo} src={Logo} alt="Logo" />
                   </div>
-                </Typography>
+                </Typography> */}
               <Typography color="inherit" variant = "headline"></Typography>
             </Grid>
           </Toolbar>
@@ -146,12 +145,10 @@ class ResAppBar extends Component{
                <ListItem><Link to="/about" key = {2} button divider className={classes.drawer}>About Me</Link></ListItem>
                <ListItem><Link to="/projects" key = {3} button divider className={classes.drawer}>Portfolio</Link></ListItem>
                <ListItem>
-               <div className={classes.iconBoxSmall}>
+               {/* <div className={classes.iconBoxSmall}>
                   <img className={classes.iconsSmall} id="iconHover" src={Git} alt="Git" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/>  
-                  <img className={classes.iconsSmall} id="iconHover" src={Email} alt="Email" />
-                  <img className={classes.iconsSmall} id="iconHover" src={Facebook} alt="Facebook" onClick={() => window.open("https://www.facebook.com/robert.a.cortez.9", "_blank")}/>
                   <img className={classes.iconsSmall} id="iconHover" src={Linkedin} alt="Linkedin" onClick={() => window.open("https://www.linkedin.com/in/robert-cortez-bb5537a5/", "_blank")}/>
-                </div>
+                </div> */}
                </ListItem>
              </List>
 
@@ -168,18 +165,13 @@ class ResAppBar extends Component{
     return (
       <AppBar className={classes.appBar}>
         <Toolbar>
-          <Typography variant = "headline" style={{flexGrow:1}} color="inherit" ><div className={classes.logoBox}>
-            <img className={classes.logo} src={Logo} alt="Logo" id="logoSlide" />
-          </div></Typography>
-          <Link to="/" className={classes.link}>Home</Link>
-          <Link to="/about" className={classes.link}>About Me</Link>
-          <Link to="/projects" className={classes.link}>Portfolio</Link>
-          <div className={classes.iconBox}>
-            <img className={classes.icons} id="iconHover" src={Git} alt="Git" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/>  
-            <img className={classes.icons} id="iconHover" src={Email} alt="Email" />
-            <img className={classes.icons} id="iconHover" src={Facebook} alt="Facebook" onClick={() => window.open("https://www.facebook.com/robert.a.cortez.9", "_blank")}/>
-            <img className={classes.icons} id="iconHover" src={Linkedin} alt="Linkedin" onClick={() => window.open("https://www.linkedin.com/in/robert-cortez-bb5537a5/", "_blank")}/>
-          </div>
+          <Typography variant = "headline" style={{flexGrow:1}} color="inherit" >
+            <div className={classes.logoBox}>
+             <Link to="/" className={classes.link}>Home</Link>
+             <Link to="/about" className={classes.link}>About Me</Link>
+             <Link to="/projects" className={classes.link}>Portfolio</Link>
+           </div>
+          </Typography>
         </Toolbar>
       </AppBar>
     )

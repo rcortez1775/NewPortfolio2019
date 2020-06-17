@@ -1,96 +1,63 @@
 html {
-    border: 10px solid #181212;
-}
-
-.hero {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #181212;
-}
-
-.hero-inner {
-    margin-top: -5em;
+    background: url(https://images.alphacoders.com/887/887559.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-attachment: bottom;
 }
 
 .body {
-    background-color: #f7f7f7;
+    background: url(https://images.alphacoders.com/887/887559.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-attachment: bottom;
+}
+
+.imageIntro {
+    text-align: center;
+    margin-top: 5em;
 }
 
 .myLogo {
-    width: 80px;
-    margin-top: 9em;
-    animation-name: spin;
-    animation-duration: 10000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
+    width: 270px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    border-radius: 50%;
+    background-color: #ffffffd8;
+    /* background-image: linear-gradient(to bottom, #b2dee7, #c9e5f2, #e0ecf9, #f2f5fc, #ffffff); */
+    border: 3px solid #181212;
 }
 
 .name {
     font-size: 60px;
     width: 100%;
-    color: #FAFAFA;
-    margin-bottom: 5px;
+    color: #ffffff;
+    margin-bottom: -5px;
     font-family: 'Patrick Hand', cursive;
-    letter-spacing: 10px;
+    text-shadow: 2px 2px #181212;
+    letter-spacing: 5px;
 }
 
 .intro {
-    color: #FAFAFA;
-    font-family: 'Dosis', sans-serif;
-    letter-spacing: 5px;
+    color: #ffffff;
+    font-family: 'Patrick Hand', cursive;
     font-size: 20px;
+    text-shadow: 2px 2px #181212;
+    letter-spacing: 5px;
 }
 
-.textSkills {
-    position: relative;
-    font-size: 21px;
-    z-index: 1;
-    overflow: hidden;
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    color: #666666;
-    margin-top: 4em;
+.icon {
+    width: 40px;
+    padding: 10px;
+    margin-top: -5em;
 }
 
-  .textSkills:before, .textSkills:after {
-    position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width: 20%;
-    height: 2px;
-    content: '\a0';
-    background-color: #dddddd;
-}
+.icon { transition: all .2s ease-in-out; }
+.icon:hover { transform: scale(1.1); }
 
-.textSkills:before {
-    margin-left: -20%;
-    text-align: right;
-}
-
-.container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-flow: wrap;
-    margin-top: 5em;
-    background-color: #f7f7f7;
-    padding-bottom: 0.5em;
-}
 
 @media screen and (max-width:1200px){
     .name{
@@ -100,54 +67,12 @@ html {
 
 @media screen and (max-width: 600px){
     .name {
-        font-size: 30px;
+        font-size: 50px;
     }
     .intro {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
-.pushUP {
-    margin-top: -30px;
-    
-}
 
-.cardBox {
-    box-sizing: border-box;
-    margin: 15px;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-    padding-top: 10px;
-}
 
-.boxCont {
-    text-align: center;
-    margin-top: -75px;
-}
-
-.boxTitle {
-    font-size: 25px;
-    font-family: 'Dosis', sans-serif;
-    color: #181212;
-    width: 100%;
-    text-align: center;
-    margin-top: -5px;
-}
-
-.boxList {
-    font-family: 'Dosis', sans-serif;
-    font-size: 18px;
-    color: #666666;
-}
-
-.textSkills {
-    color: #e53100;
-    letter-spacing: 5px;
-}
-
-.skillsIcon {
-    width: 70px;
-    margin-left: 38%;
-    margin-bottom: 5px;
-}

@@ -1,7 +1,6 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-import Rainbow from '../../images/rainbow.png';
 import Certificate from '../../images/certificate.png';
 import Military from '../../images/chevron.png';
 import Boy from '../../images/boy.png';
@@ -11,19 +10,28 @@ class about extends Component {
     render() {
         return(
             <div className="body">
-                <section className="hero">
-                    <div className="hero-inner">
-                        <img className="rainbow" src={Rainbow} alt="rainbow"/>
-                        <p className="aboutTitle">Hey There!</p>
-                        <p className="aboutSpan">Creatively curios me.</p>
+                <div className="speech-bubble">
+                    <div className="textBox">
+                        <p className="text">Hi, I’m Robert! A UI/UX Designer and Developer based in Los Angeles. I’m passionately curious about learning how people’s thought processes and feelings drive the decisions they make.
+                        <br></br><br></br>My goal as a designer & developer is to create meaningful and engaging experiences that are easily accessible and functional. To learn and test new concepts and ideas that will allow me to grow both professionally and personally.</p>
                     </div>
-                </section>
+                </div>
+                <div className="boyBox">
+                    <img className="boy" src={Boy} alt="boy"/>
+                </div>
+
+            
+
+
+
+
+
                     <div className="main">
-                        <div class className="aboutMeDiv">
-                            <img className="boy" src={Boy} alt="boy"/>
+                        {/* <div class className="aboutMeDiv">
+                            
                             <p className="aboutMe">I’m Robert. A UI/UX Designer and Developer based in Los Angeles. I’m passionately curious about learning how people’s thought processes and feelings drive the decisions they make.</p>
                             <p className="aboutMe sec">My goal as a designer & developer is to create meaningful and engaging experiences that are easily accessible and functional. To learn and test new concepts and ideas that will allow me to grow both professionally and personally.</p>
-                        </div>
+                        </div> */}
                         <div className="pushUP">
                             <p className="education textSkills">&emsp;&emsp;EDUCATION&emsp;&emsp;</p>
                         </div>

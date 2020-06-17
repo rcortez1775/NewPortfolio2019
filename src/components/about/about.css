@@ -1,21 +1,119 @@
-.rainbow {
-    width: 80px;
-    margin-top: 9em;
+.speech-bubble {
+	position: relative;
+	background: #ffffffd8;
+    border-radius: 50px;
+    margin: auto;
+    padding: 1px;
+    width: 45%;
+    margin-top: 7em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.aboutTitle {
-    font-size: 60px;
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 55%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #ffffffd8;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.textBox {
     width: 100%;
-    color: #fafafa;
-    margin-bottom: 5px;
-    margin-top: -25px;
+    margin: auto;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
     font-family: 'Patrick Hand', cursive;
-    letter-spacing: 10px;
+    margin-top: 2em;
+}
+
+.boyBox {
+    margin: auto;
+    text-align: center;
+    
 }
 
 .boy {
-    width: 55px;
-    margin-top: 2em;
+    width: 350px;
+    margin-top: -9em;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: -2em;
+    margin: auto;
+}
+
+.textSkills {
+    position: relative;
+    font-size: 21px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: #ffffff;
+    margin-top: 4em;
+}
+
+  .textSkills:before, .textSkills:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 20%;
+    height: 2px;
+    content: '\a0';
+    background-color: #ffffff;
+}
+
+.textSkills:before {
+    margin-left: -20%;
+    text-align: right;
+}
+
+.cardBox {
+    box-sizing: border-box;
+    margin: 15px;
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    padding-top: 10px;
+    background-color: #ffffffd8;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.boxCont {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.boxTitle {
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    color: #181212;
+    width: 100%;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.boxList {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    color: #666666;
 }
 
 .aboutMeDiv {
@@ -25,7 +123,7 @@
 }
 
 .aboutMe {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Patrick Hand', cursive;
     font-size: 17px;
     margin-top: 2em;
 }
@@ -41,6 +139,9 @@
 }
 
 @media screen and (max-width: 600px){
+    .speech-bubble {
+        width: 80%;
+    }
     .aboutTitle {
         font-size: 30px;
     }
@@ -52,7 +153,7 @@
 
 .aboutSpan {
     color: #fafafa;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Patrick Hand', cursive;
     letter-spacing: 5px;
     font-size: 20px;
     width: 100%;
@@ -78,7 +179,6 @@
     justify-content: space-around;
     flex-flow: wrap;
     font-family: 'Dosis', sans-serif;
-    background: #181212;
 }
 
 
@@ -90,7 +190,6 @@
     justify-content: space-around;
     flex-flow: wrap;
     font-family: 'Dosis', sans-serif;
-    background-color: #fafafa;
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -147,7 +246,7 @@
 }
 
 .graduate {
-    width: 80px;
+    width: 60px;
 }
 
 p {
@@ -159,11 +258,11 @@ p {
 }
   
 .education {
-    letter-spacing: 5px;
-    color: #e53100;
-    font-family: 'Dosis', sans-serif;
-    font-size: 25px;
-    margin-top: 4em;
+    color: #ffffff;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    margin-top: 2em;
+    text-shadow: 2px 2px #181212;
 }
 
 .eduTitle {
@@ -172,12 +271,12 @@ p {
     color: #181212;
     width: 100%;
     text-align: center;
-    margin-top: -5px;
+    margin-top: -15px;
     margin-bottom: 0;
 }
 
 .date {
-    color: #666666;
+    color: #181212;
     text-align: center;
 }
 
@@ -187,7 +286,11 @@ p {
 }
 
 .milService {
-    margin-top: 5em;
+    background-color: #ffffffd8;
+    margin-bottom: 3em;
+    border-radius: 50px;
+    width: 400px;
+    height: 300px;
 }
 
 .marine {

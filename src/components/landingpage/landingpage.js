@@ -1,11 +1,14 @@
 import { Component } from "react";
 import React from 'react';
 import './landingpage.css';
-import Icon from '../../images/rgb.png';
-import Foundation from '../../images/foundation.png';
-import Library from '../../images/library.png';
-import Server from '../../images/database.png';
-import Graphic from '../../images/graphic.png';
+// import Foundation from '../../images/foundation.png';
+// import Library from '../../images/library.png';
+// import Server from '../../images/database.png';
+// import Graphic from '../../images/graphic.png';
+import Robert from '../../images/robertc.png';
+import Linkedin from '../../images/linkedin.png';
+import Git from '../../images/git.png';
+import Gmail from '../../images/gmail.png';
 
 
 
@@ -14,17 +17,18 @@ class LandingPage extends Component {
     render() {
         return(
             <div className="body">
-                <section className="hero">
-                    <div className="hero-inner">
-                        <img className="myLogo" src={Icon} alt="icon"/>
-                        <p className="name">&lt;Robert Cortez/&gt;</p>
-                        <p className="intro">Developer + Designer</p>
+                <div className="imageIntro">
+                    <img className="myLogo" src={Robert} alt="icon"/>
+                    <p className="name">Robert Cortez</p>
+                    <p className="intro">Developer + Designer</p>
+                    <div className="iconBox">
+                        <img className="icon" id="iconHover" src={Git} alt="Git" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/> 
+                        <img className="icon" id="iconHover" src={Gmail} alt="Gmail" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/> 
+                        <img className="icon" id="iconHover" src={Linkedin} alt="Linkedin" onClick={() => window.open("https://www.linkedin.com/in/robert-cortez-bb5537a5/", "_blank")}/>
                     </div>
-                </section>
-                <main className="main">
-                    <div className="pushUP">
-                        <p className="textSkills">&emsp;&emsp;SKILL SET&emsp;&emsp;</p>
-                    </div>
+                </div>
+                
+                {/* <div className="main">
                     <div className="container">
                         <div class="cardBox">
                             <div class="iconBox">
@@ -45,7 +49,6 @@ class LandingPage extends Component {
                                 <span className="boxList">Git</span>
                             </div>      
                         </div>
-
                         <div class="cardBox">
                             <div class="iconBox">
                                 <img className="skillsIcon" src={Library} alt="Library"/>
@@ -94,7 +97,7 @@ class LandingPage extends Component {
                             </div>  
                         </div>
                     </div>
-                </main>
+                </div> */}
             </div>
         )
     }

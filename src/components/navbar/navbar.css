@@ -1,7 +1,3 @@
-#iconHover { transition: all .2s ease-in-out; }
-#iconHover:hover { transform: scale(1.4); }
-
 #grid {
-    background-color: #212025;
+    background-color: transparent;
 }
-

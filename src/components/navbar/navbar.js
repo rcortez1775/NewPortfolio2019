@@ -77,7 +77,7 @@ const styles = {
   },
   drawer: {
     fontFamily: 'Dosis, sans-serif',
-    color: '#F7F9FB',
+    color: '#181212',
     textDecoration: 'none',
     fontSize: '30px',
     padding: '10px',

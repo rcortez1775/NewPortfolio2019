@@ -4,10 +4,6 @@ import './navbar.css';
 import { withStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 import {Link} from 'react-router-dom';
-import Email from '../../images/email.png';
-import Linkedin from '../../images/linkedin.png';
-import Facebook from '../../images/facebook.png';
-import Git from '../../images/git.png';
 import Logo from '../../images/logo.png';
 
 
@@ -18,11 +14,12 @@ const styles = {
         height: '90px',
         margin: 'auto',
         top: '0',
-        background: '#212025',
+        background: '',
         fontFamily: 'Barriecito, cursive',
         fontSize: '25px',
         overflow: 'hidden',
         paddingLeft: '200px',
+        color: '#181212',
       },
     link: {
       padding: '15px',
@@ -71,12 +68,6 @@ const styles = {
           <Link to="/" className={classes.link}>Home</Link>
           <Link to="/about" className={classes.link}>About Me</Link>
           <Link to="/projects" className={classes.link}>Portfolio</Link>
-          <div className={classes.iconBox}>
-            <img className={classes.icons} id="iconHover" src={Git} alt="Git" />  
-            <img className={classes.icons} id="iconHover" src={Email} alt="Email" />
-            <img className={classes.icons} id="iconHover" src={Facebook} alt="Facebook" />
-            <img className={classes.icons} id="iconHover" src={Linkedin} alt="Linkedin" />
-          </div>
         </BottomNavigation>
       );
     }

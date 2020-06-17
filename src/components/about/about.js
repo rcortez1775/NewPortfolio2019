@@ -1,8 +1,8 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-import Certificate from '../../images/certificate.png';
 import Military from '../../images/chevron.png';
+import Star from '../../images/star.png';
 import Boy from '../../images/boy.png';
 
 
@@ -38,7 +38,7 @@ class about extends Component {
                         <div class="container">
                             <div className="cardBox mobileBox">
                                 <div className="boxCont">
-                                    <img className="graduate" src={Certificate} alt="graduate"/>
+                                    <img className="graduate" src={Star} alt="chevron"/>
                                     <p className="eduTitle">UC Irvine Coding Bootcamp</p>
                                     <p className="date">4.2018 - 7.2018</p>
                                     <p className="description">The coding bootcamp at UC Irvine was an immersive 12-week program. The course covered Computer Science applied to Javascript, browser based technologies, Databases and Deployment and server side development. The program was filled with so many intellectually curious individuals with diverse tech backgrounds.</p>
@@ -46,7 +46,7 @@ class about extends Component {
                             </div>
                             <div className="cardBox mobileBox">
                                 <div className="boxCont">
-                                    <img className="graduate" src={Certificate} alt="graduate"/>
+                                    <img className="graduate" src={Star} alt="chevron"/>
                                     <p className="eduTitle">Sabio Coding Bootcamp</p>
                                     <p className="date">1.2018 - 2.2018</p>
                                     <p className="description">The coding bootcamp at Sabio was a one month pre-work course that prepared students for an extensive 12 week course. The program highlighted the front-end and back-end technologies. I would have attended their 12 week program but found the curriculum at UC Irvine to be a bit more robust.</p>
@@ -54,7 +54,7 @@ class about extends Component {
                             </div>
                             <div className="cardBox mobileBox">
                                 <div className="boxCont">
-                                    <img className="graduate" src={Certificate} alt="graduate"/>
+                                    <img className="graduate" src={Star} alt="chevron"/>
                                     <p className="eduTitle">CodeAcademy & Udemy</p>
                                     <p className="date">11.2016 - Current</p>
                                     <p className="description">Both CodeAcademy and Udemy were my first introduction into programming. Lessons covered ranged from browser based technologies to server-side development. What I enjoy from these two platforms is the ease of accessibility and materials covered.</p>
@@ -67,7 +67,7 @@ class about extends Component {
                         <div className="milService">
                             <div className="boxCont">
                                 <img className="graduate" src={Military} alt="chevron"/>
-                                <p className="eduTitle marine">U.S. Marine Corps</p>
+                                <p className="eduTitle">U.S. Marine Corps</p>
                                 <p className="date">8.2005 - 9.2009</p>
                                 <p className="information">My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operated and maintained logistics hardware and software.</p>
                             </div>

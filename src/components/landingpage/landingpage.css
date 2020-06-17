@@ -1,5 +1,5 @@
 html {
-    background: url(https://images.alphacoders.com/887/887559.jpg) no-repeat center center fixed; 
+    background: url(../../images/bg.png) no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -8,7 +8,7 @@ html {
 }
 
 .body {
-    background: url(https://images.alphacoders.com/887/887559.jpg) no-repeat center center fixed; 
+    background: url(../../images/bg.png) no-repeat center center fixed; 
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -22,12 +22,11 @@ html {
 }
 
 .myLogo {
-    width: 270px;
+    width: 290px;
     margin-top: 3em;
     margin-bottom: 1em;
     border-radius: 50%;
     background-color: #ffffffd8;
-    /* background-image: linear-gradient(to bottom, #b2dee7, #c9e5f2, #e0ecf9, #f2f5fc, #ffffff); */
     border: 3px solid #181212;
 }
 

@@ -91,9 +91,9 @@
     height: 300px;
     perspective: 1000px;
     padding-top: 10px;
-    background-color: #ffffffd8;
+    /* background-color: #ffffffd8;
     border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 
 .boxCont {
@@ -243,10 +243,10 @@
         margin-right: auto;
         width: 100%;
     }
-}
-
-.graduate {
-    width: 60px;
+    .speech-bubble {
+        width: 90%;
+        margin-top: 5em;
+    }
 }
 
 p {
@@ -255,6 +255,10 @@ p {
     position: relative;
     margin-bottom: 3em;
     font-family: 'Dosis', sans-serif;
+}
+
+.graduate {
+    width: 35px;
 }
   
 .education {
@@ -266,35 +270,39 @@ p {
 }
 
 .eduTitle {
-    font-size: 25px;
-    font-family: 'Dosis', sans-serif;
-    color: #181212;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px #181212;
     width: 100%;
     text-align: center;
-    margin-top: -15px;
+    margin-top: .5em;
     margin-bottom: 0;
+    letter-spacing: 2px;
 }
 
 .date {
-    color: #181212;
+    color: #ffffff;
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: 2px 2px #181212;
     text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
 }
 
 .description {
-    color: #181212;
+    color: #ffffff;
     margin-top: -40px;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .milService {
-    background-color: #ffffffd8;
+    color: #ffffff;
     margin-bottom: 3em;
     border-radius: 50px;
     width: 400px;
     height: 300px;
-}
-
-.marine {
-    margin-top: 0.5em;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .one {

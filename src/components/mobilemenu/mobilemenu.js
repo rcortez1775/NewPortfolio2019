@@ -14,8 +14,6 @@ const styles = {
         height: '90px',
         margin: 'auto',
         top: '0',
-        background: '',
-        fontFamily: 'Barriecito, cursive',
         fontSize: '25px',
         overflow: 'hidden',
         paddingLeft: '200px',

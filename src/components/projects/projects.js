@@ -13,13 +13,6 @@ class Projects extends Component {
     render() {  
         return(
             <div className="body">
-                {/* <section className="hero">
-                    <div className="hero-inner">
-                        <img className="rainbow" src={Rubik} alt="rubik"/>
-                        <p className="aboutTitle">Design & Dev</p>
-                        <p className="aboutSpan">"You don't have to show them. They'll see it!"</p>
-                    </div>
-                </section> */}
                 <div className="main">
                     <div className="pushUP">
                         <p className="education textSkills">&emsp;&emsp;APPS&emsp;&emsp;</p>

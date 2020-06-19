@@ -44,11 +44,11 @@
 
 .boy {
     width: 350px;
-    margin-top: -9em;
+    margin-top: -3em;
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -246,6 +246,12 @@
     .speech-bubble {
         width: 90%;
         margin-top: 5em;
+    }
+    .description {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
     }
 }
 

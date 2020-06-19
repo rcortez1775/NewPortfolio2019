@@ -5,9 +5,6 @@ import {
   withStyles, Grid, SwipeableDrawer
 } from '@material-ui/core';
 import {Link} from 'react-router-dom';
-// import Linkedin from '../../images/linkedin.png';
-// import Git from '../../images/git.png';
-import menuBar from '../../images/menu.png';
 import './navbar.css';
 
 
@@ -21,13 +18,16 @@ const styles = {
     cursor : "pointer",
   },
   sideBarIcon : {
-    color : "black",
+    color: "#ffffff",
+    fontFamily: 'Patrick Hand, cursive',
+    fontSize: "25px",
     cursor : "pointer",
     position: 'absolute',
     right: '0',
     padding: '20px',
     width: '40px',
     marginTop: '-30px',
+    textShadow: '2px 2px #181212',
   },
   appBar: {
     background: 'transparent',
@@ -116,14 +116,8 @@ class ResAppBar extends Component{
           <Toolbar>
             <Grid container direction = "row" justify = "space-between" alignItems="center">
               <div>
-                <img className = {this.props.classes.sideBarIcon}
-                  onClick={()=>{this.setState({drawer:true})}} src={menuBar} alt="Menu" /> 
+                  <p className = {this.props.classes.sideBarIcon} onClick={()=>{this.setState({drawer:true})}}>Menu</p>
               </div>
-                {/* <Typography variant = "headline" style={{flexGrow:1}} color="inherit" >
-                  <div className={classes.logoBox}>
-                    <img className={classes.logo} src={Logo} alt="Logo" />
-                  </div>
-                </Typography> */}
               <Typography color="inherit" variant = "headline"></Typography>
             </Grid>
           </Toolbar>

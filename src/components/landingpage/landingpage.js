@@ -22,7 +22,6 @@ class LandingPage extends Component {
                     <div class="container">
                         <div className="cardBox mobileBox">
                             <div className="boxCont">
-                                <hr className="boxHR"></hr>
                                 <img className="robot" src={App} alt="chevron"/>
                                 <p className="eduTitle">FOUNDATION</p>
                                 <hr className="boxHR"></hr>
@@ -31,7 +30,6 @@ class LandingPage extends Component {
                         </div>
                         <div className="cardBox mobileBox">
                             <div className="boxCont">
-                            <hr className="boxHR"></hr>
                                 <img className="robot" src={App} alt="chevron"/>
                                 <p className="eduTitle">LIBRARIES</p>
                                 <hr className="boxHR"></hr>
@@ -40,7 +38,6 @@ class LandingPage extends Component {
                         </div>
                         <div className="cardBox mobileBox">
                             <div className="boxCont">
-                            <hr className="boxHR"></hr>
                                 <img className="robot" src={App} alt="chevron"/>
                                 <p className="eduTitle">BACKEND</p>
                                 <hr className="boxHR"></hr>

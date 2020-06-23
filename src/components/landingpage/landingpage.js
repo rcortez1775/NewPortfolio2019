@@ -11,13 +11,13 @@ class LandingPage extends Component {
                     <div className="textIntro">
                         <p className="name">ROBERT CORTEZ</p>
                         <p className="intro">UNIQUE, SIMPLE AND MODERN</p>
-                        {/* <hr className="hrLine"></hr> */}
                     </div>
                 </div>
                 <div className="main">
                     <div className="pushUP">
                         <p className="education">HIGHLIGHTS</p>
                         <hr className="hrLineBlack"></hr>
+                        <p className="ideas">IDEAS THAT LEAD TO NEW ACTIONS</p>
                     </div>
                     <div class="container">
                         <div className="cardBox mobileBox">

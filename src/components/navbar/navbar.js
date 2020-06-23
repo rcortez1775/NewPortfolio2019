@@ -25,7 +25,6 @@ const styles = {
     padding: '20px',
     width: '10px',
     marginTop: '-30px',
-    textShadow: '2px 2px #181212',
   },
   menu: {
     width: '15px',
@@ -37,7 +36,6 @@ const styles = {
     height: '70px',
     fontFamily: 'Averia Sans Libre, cursive',
     fontSize: '12px',
-    
   },
   logo: {
     width: '70px',
@@ -78,11 +76,12 @@ const styles = {
     height: '495px',
   },
   drawer: {
-    fontFamily: 'Dosis, sans-serif',
+    fontFamily: 'Averia Sans Libre, cursive',
     color: '#181212',
     textDecoration: 'none',
-    fontSize: '30px',
+    fontSize: '15px',
     padding: '10px',
+    letterSpacing: '2px', 
   },
 };
 

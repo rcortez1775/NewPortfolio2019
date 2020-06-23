@@ -28,16 +28,19 @@
     margin-bottom: 2em;
 }
 
-.hrLine {
-    width: 40px;
-    border: 1px solid #ffffff;
-    margin-top: -20px;
-}
-
 .hrLineBlack {
     width: 40px;
     border: 1px solid #181212;
     margin-top: -30px;
+}
+
+.ideas {
+    color: #181212;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 10px;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 2em;
 }
 
 .boxHR {

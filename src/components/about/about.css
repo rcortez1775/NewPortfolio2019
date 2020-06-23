@@ -1,51 +1,26 @@
-.speech-bubble {
-	position: relative;
-	background: #ffffffd8;
-    border-radius: 50px;
-    margin: auto;
-    padding: 1px;
-    width: 45%;
-    margin-top: 7em;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 55%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-top-color: #ffffffd8;
-	border-bottom: 0;
-	border-left: 0;
-	margin-left: -10px;
-    margin-bottom: -20px;
-}
-
 .textBox {
-    width: 100%;
-    margin: auto;
+    width: 80%;
     text-align: center;
+    margin: auto;
+    margin-top: 6em;
 }
 
 .text {
-    font-size: 20px;
-    font-family: 'Patrick Hand', cursive;
-    margin-top: 2em;
-}
-
-.boyBox {
+    font-size: 15px;
+    font-family: 'Averia Sans Libre', cursive;
+    letter-spacing: 2px;
     margin: auto;
-    text-align: center;
-    
 }
 
-.boy {
-    width: 350px;
-    margin-top: -3em;
-}
+.firstcharacter {
+    color: #181212;
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
 
 .container {
     width: 100%;
@@ -58,32 +33,6 @@
     margin: auto;
 }
 
-.textSkills {
-    position: relative;
-    font-size: 21px;
-    z-index: 1;
-    overflow: hidden;
-    text-align: center;
-    font-family: 'Averia Sans Libre', cursive;
-    color: #181212;
-    margin-top: 4em;
-}
-
-  .textSkills:before, .textSkills:after {
-    position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width: 20%;
-    height: 1px;
-    content: '\a0';
-    background-color: #181212;
-}
-
-.textSkills:before {
-    margin-left: -20%;
-    text-align: right;
-}
-
 .cardBox {
     box-sizing: border-box;
     margin: 15px;
@@ -91,9 +40,6 @@
     height: 300px;
     perspective: 1000px;
     padding-top: 10px;
-    /* background-color: #ffffffd8;
-    border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 }
 
 .boxCont {
@@ -248,7 +194,7 @@
         margin-top: 5em;
     }
     .description {
-        width: 100%;
+        width: 75%;
     }
     .container {
         width: 90%;
@@ -287,17 +233,16 @@ p {
     width: 100%;
     text-align: center;
     margin-top: .5em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     letter-spacing: 6px;
 }
 
 .date {
-    color: #ffffff;
+    color: #181212;
     font-family: 'Averia Sans Libre', cursive;
-    text-shadow: 2px 2px #181212;
     text-align: center;
-    letter-spacing: 2px;
-    font-size: 18px;
+    letter-spacing: 5px;
+    font-size: 12px;
 }
 
 .description {

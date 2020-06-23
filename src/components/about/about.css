@@ -54,7 +54,7 @@
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
-    margin-top: -2em;
+    margin-top: -3em;
     margin: auto;
 }
 
@@ -64,8 +64,8 @@
     z-index: 1;
     overflow: hidden;
     text-align: center;
-    font-family: 'Dosis', sans-serif;
-    color: #ffffff;
+    font-family: 'Averia Sans Libre', cursive;
+    color: #181212;
     margin-top: 4em;
 }
 
@@ -74,9 +74,9 @@
     top: 51%;
     overflow: hidden;
     width: 20%;
-    height: 2px;
+    height: 1px;
     content: '\a0';
-    background-color: #ffffff;
+    background-color: #181212;
 }
 
 .textSkills:before {
@@ -266,30 +266,34 @@ p {
 .graduate {
     width: 35px;
 }
+
+.pushUP {
+    margin-top: 5em;
+}
   
 .education {
-    color: #ffffff;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 30px;
+    color: #181212;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 15px;
     margin-top: 2em;
-    text-shadow: 2px 2px #181212;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 .eduTitle {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 30px;
-    color: #ffffff;
-    text-shadow: 2px 2px #181212;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 13px;
+    color: #181212;
     width: 100%;
     text-align: center;
     margin-top: .5em;
-    margin-bottom: 0;
-    letter-spacing: 2px;
+    margin-bottom: 1em;
+    letter-spacing: 6px;
 }
 
 .date {
     color: #ffffff;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Averia Sans Libre', cursive;
     text-shadow: 2px 2px #181212;
     text-align: center;
     letter-spacing: 2px;
@@ -297,18 +301,19 @@ p {
 }
 
 .description {
-    color: #ffffff;
-    margin-top: -40px;
-    font-family: 'Patrick Hand', cursive;
+    color: #181212;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .milService {
-    color: #ffffff;
+    color: #181212;
     margin-bottom: 3em;
     border-radius: 50px;
     width: 400px;
     height: 300px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Averia Sans Libre', cursive;
 }
 
 .one {

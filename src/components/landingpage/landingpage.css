@@ -1,58 +1,52 @@
-html {
-    background: url(../../images/bg.png) no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-attachment: bottom;
-}
-
-.body {
-    background: url(../../images/bg.png) no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-attachment: bottom;
-}
-
 /* Main Page Container */
-.imageIntro {
+.mainIntro {
     text-align: center;
-    margin-top: 5em;
-}
-
-.myLogo {
-    width: 290px;
-    margin-top: 3em;
-    margin-bottom: 1em;
-    border-radius: 50%;
-    background-color: #ffffffd8;
-    border: 3px solid #181212;
+    margin-top: 3.5em;
+    height: 40vh;
+    background: url(../../images/background.png) no-repeat center center; 
+    background-attachment: bottom;
 }
 
 .name {
-    font-size: 60px;
-    width: 100%;
+    font-size: 24px;
     color: #ffffff;
-    margin-bottom: -5px;
-    font-family: 'Patrick Hand', cursive;
-    text-shadow: 2px 2px #181212;
-    letter-spacing: 5px;
+    margin-bottom: 10px;
+    padding-top: 4em;
+    font-family: 'Averia Sans Libre', cursive;
+    letter-spacing: 10px;
+    font-weight: 900;
 }
 
 .intro {
     color: #ffffff;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
-    text-shadow: 2px 2px #181212;
-    letter-spacing: 5px;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 10px;
+    letter-spacing: 6px;
 }
 
-.icon {
+.pushUP {
+    margin-bottom: 2em;
+}
+
+.hrLine {
     width: 40px;
-    padding: 10px;
-    margin-top: -5em;
+    border: 1px solid #ffffff;
+    margin-top: -20px;
+}
+
+.hrLineBlack {
+    width: 40px;
+    border: 1px solid #181212;
+    margin-top: -30px;
+}
+
+.boxHR {
+    width: 45%;
+    border: -1px solid #929292;
+}
+
+.robot {
+    width: 15px;
 }
 
 .icon { transition: all .2s ease-in-out; }
@@ -67,10 +61,10 @@ html {
 
 @media screen and (max-width: 600px){
     .name {
-        font-size: 50px;
+        font-size: 24px;
     }
     .intro {
-        font-size: 25px;
+        font-size: 10px;
     }
 }
 

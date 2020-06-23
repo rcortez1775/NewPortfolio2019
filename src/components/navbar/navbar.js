@@ -6,6 +6,7 @@ import {
 } from '@material-ui/core';
 import {Link} from 'react-router-dom';
 import './navbar.css';
+import Menu from '../../images/menu.png';
 
 
 const styles = {
@@ -18,24 +19,25 @@ const styles = {
     cursor : "pointer",
   },
   sideBarIcon : {
-    color: "#ffffff",
-    fontFamily: 'Patrick Hand, cursive',
-    fontSize: "25px",
     cursor : "pointer",
     position: 'absolute',
     right: '0',
     padding: '20px',
-    width: '40px',
+    width: '10px',
     marginTop: '-30px',
     textShadow: '2px 2px #181212',
+  },
+  menu: {
+    width: '15px',
   },
   appBar: {
     background: 'transparent',
     position: 'absolute',
     boxShadow: 'none',
     height: '70px',
-    fontFamily: 'Patrick Hand, cursive',
-    fontSize: '20px',
+    fontFamily: 'Averia Sans Libre, cursive',
+    fontSize: '12px',
+    
   },
   logo: {
     width: '70px',
@@ -49,7 +51,7 @@ const styles = {
   link: {
     padding: '15px',
     textDecoration: 'none',
-    color: '#ffffff',
+    color: '#181212',
     marginTop: '-10px',
     fontWeight: '550',
     letterSpacing: '2px',
@@ -116,7 +118,7 @@ class ResAppBar extends Component{
           <Toolbar>
             <Grid container direction = "row" justify = "space-between" alignItems="center">
               <div>
-                  <p className = {this.props.classes.sideBarIcon} onClick={()=>{this.setState({drawer:true})}}>Menu</p>
+                  <p className = {this.props.classes.sideBarIcon} onClick={()=>{this.setState({drawer:true})}}><img className={classes.menu} src={Menu} alt="menu"/></p>
               </div>
               <Typography color="inherit" variant = "headline"></Typography>
             </Grid>
@@ -135,9 +137,9 @@ class ResAppBar extends Component{
              onKeyDown={()=>{this.setState({drawer:false})}}>
 
             <List className = {this.props.classes.list} id="grid">
-               <ListItem><Link to="/" key = {1} button divider className={classes.drawer}>Home</Link></ListItem>
-               <ListItem><Link to="/about" key = {2} button divider className={classes.drawer}>About Me</Link></ListItem>
-               <ListItem><Link to="/projects" key = {3} button divider className={classes.drawer}>Portfolio</Link></ListItem>
+               <ListItem><Link to="/" key = {1} button divider className={classes.drawer}>HOME</Link></ListItem>
+               <ListItem><Link to="/about" key = {2} button divider className={classes.drawer}>ABOUT ME</Link></ListItem>
+               <ListItem><Link to="/projects" key = {3} button divider className={classes.drawer}>PORTFOLIO</Link></ListItem>
                <ListItem>
                {/* <div className={classes.iconBoxSmall}>
                   <img className={classes.iconsSmall} id="iconHover" src={Git} alt="Git" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/>  
@@ -161,9 +163,11 @@ class ResAppBar extends Component{
         <Toolbar>
           <Typography variant = "headline" style={{flexGrow:1}} color="inherit" >
             <div className={classes.logoBox}>
-             <Link to="/" className={classes.link}>Home</Link>
-             <Link to="/about" className={classes.link}>About Me</Link>
-             <Link to="/projects" className={classes.link}>Portfolio</Link>
+             <Link to="/" className={classes.link}>HOME</Link>
+             <Link to="">|</Link>
+             <Link to="/about" className={classes.link}>ABOUT ME</Link>
+             <Link to="">|</Link>
+             <Link to="/projects" className={classes.link}>PORTFOLIO</Link>
            </div>
           </Typography>
         </Toolbar>

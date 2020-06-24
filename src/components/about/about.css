@@ -189,12 +189,11 @@
         margin-right: auto;
         width: 100%;
     }
-    .speech-bubble {
-        width: 90%;
-        margin-top: 5em;
-    }
     .description {
         width: 75%;
+    }
+    .information {
+        width: 65%;
     }
     .container {
         width: 90%;
@@ -206,7 +205,10 @@ p {
     margin: auto;
     position: relative;
     margin-bottom: 3em;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Averia Sans Libre', cursive;
+    color: #181212;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .graduate {
@@ -243,6 +245,7 @@ p {
     text-align: center;
     letter-spacing: 5px;
     font-size: 12px;
+    margin-bottom: .5em;
 }
 
 .description {
@@ -250,6 +253,7 @@ p {
     font-family: 'Averia Sans Libre', cursive;
     font-size: 14px;
     line-height: 1.5;
+    margin-top: .5em;
 }
 
 .milService {
@@ -266,5 +270,6 @@ p {
 }
 
 .information {
-    margin-top: -40px;
+    margin-top: .5em;
+    font-size: 14px;
 }

@@ -84,6 +84,9 @@ const styles = {
     padding: '10px',
     letterSpacing: '2px', 
   },
+  mobileMenu: {
+    width: '100%',
+  }
 };
 
 class ResAppBar extends Component{
@@ -129,6 +132,7 @@ class ResAppBar extends Component{
          open={this.state.drawer}
          onClose={()=>{this.setState({drawer:false})}}
          onOpen={()=>{this.setState({drawer:true})}}>
+          
 
            <div
              tabIndex={0}

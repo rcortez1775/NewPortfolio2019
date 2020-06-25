@@ -13,6 +13,9 @@ class about extends Component {
                     <p className="text"><span className="firstcharacter">Hi</span> I’m Robert! A UI/UX Designer and Developer based in Los Angeles. I’m passionately curious about learning how people’s thought processes and feelings drive the decisions they make.
                     My goal as a designer & developer is to create meaningful and engaging experiences that are easily accessible and functional. To learn and test new concepts and ideas that will allow me to grow both personally and professionally.</p>
                 </div>
+                <div>
+                    <hr className="blackLine"></hr>
+                </div>
                 <div className="main">
                     <div className="pushUP">
                         <p className="education">EDUCATION</p>
@@ -54,6 +57,9 @@ class about extends Component {
                                 <p className="information">My Marine Corps career was focused on data processing military equipment while maintaining reports and correspondence for military aircraft weaponry. I oversaw and supervised administrative functions as well as set up, operated and maintained logistics hardware and software.</p>
                             </div>
                         </div>
+                    </div>
+                    <div>
+                        <hr className="hrBlackLine"></hr>
                     </div>
             </div>
         )

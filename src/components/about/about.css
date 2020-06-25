@@ -151,3 +151,15 @@ p {
     margin-top: .5em;
     font-size: 14px;
 }
+
+.blackLine {
+    width: 50px;
+    border: 1px solid #181212;
+    margin-top: 1.5em;
+}
+
+.hrBlackLine {
+    width: 50px;
+    margin-top: -3em;
+    border: 1px solid #181212;
+}

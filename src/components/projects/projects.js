@@ -15,7 +15,7 @@ class Projects extends Component {
             <div className="body">
                 <div className="main">
                     <div className="pushUP">
-                        <p className="education textSkills">&emsp;&emsp;APPS&emsp;&emsp;</p>
+                        <p className="education textSkills">&emsp;&emsp;MOBILE APPS&emsp;&emsp;</p>
                     </div>
                     <div className="container"> 
                         <div className="projectBox" id="projectHover">

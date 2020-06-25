@@ -11,7 +11,7 @@ import Menu from '../../images/menu.png';
 
 const styles = {
   list : {
-    width : '250',
+    width : '100%',
     background: 'transparent',
   },
   padding : {
@@ -82,11 +82,9 @@ const styles = {
     textDecoration: 'none',
     fontSize: '15px',
     padding: '10px',
-    letterSpacing: '2px', 
+    letterSpacing: '2px',
+    textAlign: 'center',
   },
-  mobileMenu: {
-    width: '100%',
-  }
 };
 
 class ResAppBar extends Component{

@@ -3,9 +3,6 @@ import React from 'react';
 import './about.css';
 import Military from '../../images/chevron.png';
 import App from '../../images/app.png';
-// import Git from '../../images/github.png';
-// import Linkedin from '../../images/linkedin.png';
-// import Gmail from '../../images/email.png';
 
 
 class about extends Component {

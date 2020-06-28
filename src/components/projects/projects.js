@@ -29,7 +29,7 @@ class Projects extends Component {
 
                      <div className="container2">
                         <div className="projectBox">
-                            <div className="therabodyCont mobileBox">
+                            <div className="therabodyCont theraBox">
                                 <img className="therabodyMobile" src={KeepPUP} alt="Keepup"/>
                             </div>
                         </div>

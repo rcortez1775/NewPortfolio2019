@@ -13,7 +13,7 @@ class LandingPage extends Component {
                 <div className="mainIntro">
                     <div className="textIntro">
                         <p className="name">ROBERT CORTEZ</p>
-                        <p className="intro">UNIQUE, SIMPLE AND MODERN</p>
+                        <p className="intro">SIMPLY MODERN</p>
                     </div>
                 </div>
                 <div className="main">

@@ -1,35 +1,73 @@
 .projectBox {
     box-sizing: border-box;
     margin: 25px;
-    width: 325px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
     perspective: 1000px;
-    padding-top: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #ffffffd8;
 }
 
-.projectIMG {
-    border-radius: 5px;
-    margin: 8px;
-    margin-top: -3px;
-    height: 175px;
-    overflow: hidden;
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding-top: 8em;
+    margin: auto;
 }
 
-.image {
-    margin-left: -25px;
+.container3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding-top: 5em;
+    margin: auto;
+}
+
+.webApp {
+    border: 1px solid #181212;
+    border-radius: 5%;
+}
+
+.appTitle {
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 24px;
+    letter-spacing: 6px;
+    margin-top: 3em;
+}
+
+.appDesc {
+    margin-top: -5em;
+}
+
+.appCaps {
+    font-size: 17px;
+}
+
+.therabodyCont {
+    text-align: center;
+}
+
+.therabodyMobile {
+    width: 16em;
+}
+
+.pushDown {
+    margin-top: 10em;
 }
 
 .projectInfo {
-    margin-left: -35px;
+    text-align: center;
+    margin-top: 7em;
 }
 
 .projectTitle {
     font-family: 'Averia Sans Libre', cursive;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 200;
 }
 
@@ -37,29 +75,6 @@
     font-family: 'Averia Sans Libre', cursive;
     color: #666666;
     margin-top: -60px;
-}
-
-#projectHover { transition: all .2s ease-in-out; }
-#projectHover:hover { transform: scale(1.1); }
-
-.devIconBox {
-    float: right;
-    margin-top: 19px;
-    margin-right: 5px;
-}
-
-.devIconBox2 {
-    float: right;
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-.devIcon {
-    width:25px;
-}
-
-.devIcon2 {
-    width: 25px;
 }
 
 .oop {
@@ -72,4 +87,19 @@
     margin: 8px;
     margin-top: -3px;
     height: 175px;
+}
+
+@media screen and (max-width: 600px){
+    .projectBox {
+        text-align: center;
+    }
+    .appTitle {
+        margin-top: -1em;
+    }
+    .keepup {
+        margin-top: -14em;
+    }
+    .mobileBox {
+        margin-top: 21.5em;
+    }
 }

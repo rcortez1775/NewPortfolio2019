@@ -130,6 +130,7 @@ body {
 }
 
 .slider {
+  margin-top: -2em;
   height: 85vh;
   position: relative;
   overflow: hidden;

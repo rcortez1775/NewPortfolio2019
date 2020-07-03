@@ -19,9 +19,14 @@
 
 .projectPres {
   width: 190px;
-  margin-top: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+.projectComp {
+  width: 35%;
+  margin-top: 2em;
+}
 
 .conty {
     margin-top: 5em;
@@ -98,7 +103,7 @@
 }
 
 .projectIcon {
-  width: 45px;
+  width: 30px;
 }
 
 @media screen and (max-width: 600px){
@@ -116,6 +121,12 @@
     }
     .slider {
       margin-top: -3em !important;
+    }
+    .projectPres {
+      width: 210px;
+    }
+    .projectComp {
+      width: 120%;
     }
 }
 

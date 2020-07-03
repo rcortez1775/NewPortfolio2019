@@ -15,7 +15,7 @@ class Projects extends Component {
             <div className="body">
                 <div className="conty">
                 <div class="slider">
-                    <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+                    <input type="radio" name="slider" title="slide1" class="slider__nav" />
                     <input type="radio" name="slider" title="slide2" class="slider__nav" />
                     <input type="radio" name="slider" title="slide3" class="slider__nav" />
                     <input type="radio" name="slider" title="slide4" class="slider__nav" />

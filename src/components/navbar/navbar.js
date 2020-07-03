@@ -23,7 +23,7 @@ const styles = {
     position: 'absolute',
     right: '0',
     padding: '20px',
-    paddingRight: '15px',
+    paddingRight: '28px',
     width: '10px',
     marginTop: '-30px',
   },

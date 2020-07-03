@@ -40,11 +40,11 @@
     height: 300px;
     perspective: 1000px;
     padding-top: 10px;
-}
+}   
 
 .boxCont {
     text-align: center;
-    margin-top: -5px;
+    margin-top: 2em;
 }
 
 .container3 {
@@ -62,7 +62,10 @@
         width: 75px;
     }
     .mobileBox {
-        margin-bottom: 30px;
+        margin-bottom: 2em;
+    }
+    .highlightBox {
+        margin-bottom: -3em;
     }
 }
 
@@ -108,7 +111,7 @@ p {
 
 .eduTitle {
     font-family: 'Averia Sans Libre', cursive;
-    font-size: 13px;
+    font-size: 15px;
     color: #181212;
     width: 100%;
     text-align: center;

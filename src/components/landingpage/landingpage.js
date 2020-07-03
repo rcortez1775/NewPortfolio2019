@@ -13,7 +13,7 @@ class LandingPage extends Component {
                 <div className="mainIntro">
                     <div className="textIntro">
                         <p className="name">ROBERT CORTEZ</p>
-                        <p className="intro">SIMPLY MODERN</p>
+                        <p className="intro">DEVELOPER + VETERAN</p>
                     </div>
                 </div>
                 <div className="main">
@@ -21,26 +21,26 @@ class LandingPage extends Component {
                         <p className="education">HIGHLIGHTS</p>
                         <p className="ideas">IDEAS THAT LEAD TO NEW ACTIONS</p>
                     </div>
-                    <div class="container">
-                        <div className="cardBox mobileBox">
+                    <div className="container">
+                        <div className="cardBox highlightBox">
                             <div className="boxCont">
                                 <img className="robot" src={App} alt="chevron"/>
                                 <p className="eduTitle">FOUNDATION</p>
-                                <p className="description">The coding bootcamp at UC Irvine was an immersive 12-week program. The course covered Computer Science applied to Javascript, browser based technologies, Databases and Deployment and server side development. The program was filled with so many intellectually curious individuals with diverse tech backgrounds.</p>
+                                <p className="description">AWS INTERNET OF THINGS<br></br>ES6 JAVASCRIPT<br></br>HTML(5)<br></br>CSS(3)<br></br>GIT</p>
                             </div>
                         </div>
-                        <div className="cardBox mobileBox">
+                        <div className="cardBox highlightBox">
                             <div className="boxCont">
                                 <img className="robot" src={App} alt="chevron"/>
                                 <p className="eduTitle">LIBRARIES</p>
-                                <p className="description">The coding bootcamp at Sabio was a one month pre-work course that prepared students for an extensive 12 week course. The program highlighted the front-end and back-end technologies. I would have attended their 12 week program but found the curriculum at UC Irvine to be a bit more robust.</p>
+                                <p className="description">MATERIAL-UI<br></br>BOOTSTRAP<br></br>REACT<br></br>jQuery<br></br></p>
                             </div>
                         </div>
-                        <div className="cardBox mobileBox">
+                        <div className="cardBox highlightBox">
                             <div className="boxCont">
                                 <img className="robot" src={App} alt="chevron"/>
-                                <p className="eduTitle">BACKEND</p>
-                                <p className="description">Both CodeAcademy and Udemy were my first introduction into programming. Lessons covered ranged from browser based technologies to server-side development. What I enjoy from these two platforms is the ease of accessibility and materials covered.</p>
+                                <p className="eduTitle">SERVER-SIDE</p>
+                                <p className="description">MONGODB<br></br>EXPRESS<br></br>NODE.JS<br></br>HEROKU<br></br>MYSQL<br></br></p>
                             </div>
                         </div>
                         <div>

@@ -132,9 +132,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: border-box;
-}
+} */
 
 html, body {
   height: 100%;
@@ -148,6 +148,7 @@ body {
 }
 
 .slider {
+  box-sizing: border-box;
   margin-top: -1em;
   height: 85vh;
   position: relative;
@@ -169,6 +170,7 @@ body {
           justify-content: center;
 }
 .slider__nav {
+  box-sizing: border-box;
   width: 12px;
   height: 12px;
   margin: 2rem 12px;
@@ -204,6 +206,7 @@ body {
   left: -400%;
 }
 .slider__inner {
+  box-sizing: border-box;
   position: absolute;
   top: 0;
   left: 0;
@@ -220,6 +223,7 @@ body {
           flex-flow: row nowrap;
 }
 .slider__contents {
+  box-sizing: border-box;
   height: 100%;
   padding: 2rem;
   text-align: center;
@@ -245,6 +249,7 @@ body {
 }
 
 .slider__caption {
+  box-sizing: border-box;
   font-weight: 500;
   margin: 2rem 0 1rem;
   margin-top: -0.1em;
@@ -252,6 +257,7 @@ body {
   text-transform: uppercase;
 }
 .slider__txt {
+  box-sizing: border-box;
   color: #999;
   margin-bottom: 3rem;
   max-width: 300px;

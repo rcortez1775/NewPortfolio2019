@@ -1,8 +1,8 @@
 import { Component } from "react";
 import React from 'react';
 import './projects.css';
-// import Therabody from '../../images/therabody.png';
-// import KeepPUP from '../../images/keepup.png';
+import Therabody from '../../images/therabody.png';
+import KeepPUP from '../../images/keepup.png';
 import Phone from '../../images/smartphone.png';
 import Comp from '../../images/computer.png';
 
@@ -21,11 +21,13 @@ class Projects extends Component {
                         <div class="slider__contents">
                             <img src={Phone} alt="smartPhone" className="projectIcon"/>
                             <h2 class="slider__caption">Therabody</h2>
+                            <img src={Therabody} alt="therabody" className="projectPres"/>
                             <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
                         </div>
                         <div class="slider__contents">
                             <img src={Phone} alt="smartPhone" className="projectIcon"/>
                             <h2 class="slider__caption">KeepPUP</h2>
+                            <img src={KeepPUP} alt="keepup" className="projectPres"/>
                             <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
                         </div>
                         <div class="slider__contents">

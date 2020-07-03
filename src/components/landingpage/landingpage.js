@@ -29,14 +29,14 @@ class LandingPage extends Component {
                                 <p className="description">AWS INTERNET OF THINGS<br></br>ES6 JAVASCRIPT<br></br>HTML(5)<br></br>CSS(3)<br></br>GIT</p>
                             </div>
                         </div>
-                        <div className="cardBox highlightBox">
+                        <div className="cardBox libraries">
                             <div className="boxCont">
                                 <img className="robot" src={App} alt="chevron"/>
                                 <p className="eduTitle">LIBRARIES</p>
                                 <p className="description">MATERIAL-UI<br></br>BOOTSTRAP<br></br>REACT<br></br>jQuery<br></br></p>
                             </div>
                         </div>
-                        <div className="cardBox highlightBox">
+                        <div className="cardBox">
                             <div className="boxCont">
                                 <img className="robot" src={App} alt="chevron"/>
                                 <p className="eduTitle">SERVER-SIDE</p>

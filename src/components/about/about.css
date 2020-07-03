@@ -65,7 +65,10 @@
         margin-bottom: 2em;
     }
     .highlightBox {
-        margin-bottom: -3em;
+        margin-bottom: -6em;
+    }
+    .libraries {
+        margin-bottom: -7em;
     }
 }
 
@@ -103,7 +106,7 @@ p {
 .education {
     color: #800808;
     font-family: 'Averia Sans Libre', cursive;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 2em;
     letter-spacing: 5px;
     text-align: center;
@@ -111,12 +114,12 @@ p {
 
 .eduTitle {
     font-family: 'Averia Sans Libre', cursive;
-    font-size: 15px;
+    font-size: 20px;
     color: #181212;
     width: 100%;
     text-align: center;
     margin-top: .5em;
-    margin-bottom: .5em;
+    margin-bottom: -0.5em;
     letter-spacing: 6px;
 }
 
@@ -127,6 +130,7 @@ p {
     letter-spacing: 5px;
     font-size: 12px;
     margin-bottom: .5em;
+    margin-top: 0.5em;
 }
 
 .description {

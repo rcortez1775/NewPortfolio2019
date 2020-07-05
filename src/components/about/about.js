@@ -1,7 +1,7 @@
 import { Component } from "react";
 import React from 'react';
 import './about.css';
-// import Military from '../../images/chevron.png';
+import Military from '../../images/chevron.png';
 import App from '../../images/app.png';
 
 
@@ -47,7 +47,7 @@ class about extends Component {
                         </div>
                     </div>
                 </div>
-                    {/* <div className="container3">
+                    <div className="container3">
                         <p className="education one">MILITARY</p>
                         <div className="milService">
                             <div className="boxCont">
@@ -58,9 +58,6 @@ class about extends Component {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <hr className="hrBlackLine"></hr>
-                    </div> */}
             </div>
         )
     }

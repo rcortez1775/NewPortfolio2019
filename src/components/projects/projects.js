@@ -25,31 +25,31 @@ class Projects extends Component {
                             <img src={Phone} alt="smartPhone" className="projectIcon"/>
                             <h2 class="slider__caption">Therabody</h2>
                             <img src={Therabody} alt="therabody" className="projectPres"/>
-                            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                            <p class="slider__txt">The Therabody app was my first intro into design, development and launch. <br></br><span className="blackOut">Made with:</span> DynamoDB, Express, ReactJS and NodeJS</p>
                         </div>
                         <div class="slider__contents">
                             <img src={Phone} alt="smartPhone" className="projectIcon"/>
                             <h2 class="slider__caption">KeepPUP</h2>
                             <img src={KeepPUP} alt="keepup" className="projectPres"/>
-                            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                            <p class="slider__txt">With keepPUP, users can store and share all of their pet's activities with other users.<br></br><span className="blackOut">Made with:</span> MySQL, Express, ReactJS and NodeJS</p>
                         </div>
                         <div class="slider__contents">
                             <img src={Comp} alt="Computer" className="projectIcon"/>
                             <h2 class="slider__caption">MyCodeCard</h2>
                             <img src={CodeCard} alt="CodeCard" className="projectComp"/>
-                            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                            <p class="slider__txt">MyCodeCard was our class final that allowed users categorize and organize all their notes.<br></br><span className="blackOut">Made with:</span> MongoDB, Express, ReactJS and NodeJS</p>
                         </div>
                         <div class="slider__contents">
                             <img src={Comp} alt="Computer" className="projectIcon"/>
                             <h2 class="slider__caption">Circle of Friends</h2>
                             <img src={Circle} alt="CircleofFriends" className="projectComp"/>
-                            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                            <p class="slider__txt">Using Geotags, Circle of Friends was a class project where a user receives alerts of who they know based upon geo tags. <br></br><span className="blackOut">Made with:</span> MySQL, Javascript, HTML, CSS</p>
                         </div>
                         <div class="slider__contents">
                             <img src={Comp} alt="Computer" className="projectIcon"/>
                             <h2 class="slider__caption">DoomsDay Database</h2>
                             <img src={Doom} alt="doomsday" className="projectComp"/>
-                            <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+                            <p class="slider__txt">DoomsdayDB used the NASA API to search a desired year and present markers on a map of where meteors have struck. <br></br><span className="blackOut">Made with:</span> Javascript, AJAX, HTML and CSS</p>
                         </div>
                     </div>
                 </div>

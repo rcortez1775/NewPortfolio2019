@@ -42,6 +42,10 @@
     margin: auto;
 } */
 
+.blackOut {
+  color: #181212;
+}
+
 .webApp {
     border-radius: 5%;
 }
